@@ -15,7 +15,10 @@
     "react-slick": "^0.30.3",
     "react-slideshow-image": "^4.3.2",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+
+
+    "@babel/plugin-proposal-private-property-in-object": "latest version"
   },
   "scripts": {
     "start": "react-scripts start",
