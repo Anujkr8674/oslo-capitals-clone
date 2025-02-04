@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../style/navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div className="logo-nav">
         <h1 className="logo">
           {/* OSLO<span>CAPITALS</span> */}
-          <img src="/images/logo.png" alt="logo with text"/>
+          <img src="/images/" alt="logo with text"/>
         </h1>
         <div className="menu-icon" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
@@ -116,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           <h3 className="head"><b>ACCOUNTS</b></h3>
           
-          <li><a href="accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</a></li>
+          <li><Link to="/accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</Link></li>
           <li><a href="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</a></li>
           <li><a href="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</a></li>
