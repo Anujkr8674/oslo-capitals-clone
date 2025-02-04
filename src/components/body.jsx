@@ -22,7 +22,7 @@ const Body = () => {
 
   const [playing, setPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
-  const [showControls, setShowControls] = useState(false);
+  const [showControls] = useState(false);
 
   const togglePlayPause = () => {
     if (videoRef.current.paused) {
