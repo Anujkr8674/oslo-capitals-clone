@@ -4,7 +4,7 @@ import React from "react";
 // import Footer from "../components/Footer";
 
 // import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 import Body from "../components/body";
 
 const Home = () => {

@@ -86,12 +86,12 @@ const Footer = () => {
           <hr/>
 
           <div className="footerlogo">
-            <img src="/images/unicef.png"/>
-            <img src="/images/meta.png"/>
-            <img src="/images/inv.png"/>
-            <img src="/images/unicef.png"/>
-            <img src="/images/meta.png"/>
-            <img src="/images/inv.png"/>
+            <img src="/images/unicef.png" alt="footerlogo"/>
+            <img src="/images/meta.png"alt="footerlogo"/>
+            <img src="/images/inv.png"alt="footerlogo"/>
+            <img src="/images/unicef.png"alt="footerlogo"/>
+            <img src="/images/meta.png"alt="footerlogo"/>
+            <img src="/images/inv.png"alt="footerlogo"/>
           </div>
        
 

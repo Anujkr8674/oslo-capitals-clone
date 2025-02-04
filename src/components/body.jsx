@@ -302,7 +302,7 @@ const Body = () => {
 
       <div className="imgtext">
         <div className="img1">
-          <img src="/images/man.jpg"/>
+          <img src="/images/man.jpg" alt="man img"/>
           <div className="overlay-text"><b className="b">12</b> Years of<br/><span className="span">Experience </span> </div>
         </div>
 
@@ -539,7 +539,7 @@ const Body = () => {
     <h1 className="says">Read What Our<br/>
     Traders Says</h1>
     <div className="log1">
-    <img id="log1" src="/images/logoimg1.png"/><img id="log1"src="/images/logoimg2.png"/><img id="log1" src="/images/logoimg1.png"/>
+    <img id="log1" src="/images/logoimg1.png" alt="logomob"/><img id="log1"src="/images/logoimg2.png" alt="logomob"/><img id="log1" src="/images/logoimg1.png" alt="logomob"/>
     </div>
     <p id="oslocapitals" className="says">Trustpilot reviews ★★★★★</p>
 
@@ -666,112 +666,7 @@ const Body = () => {
             </div>
           </div>
 
-          {/* <div className="slidertext1">
-  <div className="slider-container">
-    <div className="slidertext">
-      <div className="sliderimg">
-        <img src="/images/mobpart.png" alt="Image 1" />
-      </div>
-      <div className="text11">
-        <h5>— 87.6 Client Satisfaction</h5>
-        <h2>OSLO ACADEMY LEARN FROM EXPERTS</h2>
-        <p>Get all the free education you need to become a better trader. Whether you’re a beginner or an expert, we’ll have something for you. From articles to educational webinars, videos, and courses; you name it, we’ll have it.</p>
-        <br />
-        <button>Visit Oslo Academy</button>
-      </div>
-    </div>
 
-    <div className="slidertext">
-      <div className="sliderimg">
-        <img src="/images/mobpart.png" alt="Image 2" />
-      </div>
-      <div className="text11">
-        <h2>ECONOMIC CALENDAR TRADE WITH ACCURACY</h2>
-        <p>Stay ahead of the game with our comprehensive economic calendar. Track important, market-moving events effortlessly and anticipate major movements in the market. Our calendar keeps you informed about key dates and times, so you can make smarter trading decisions with confidence.</p>
-        <br />
-        <button>Visit Oslo Academy</button>
-      </div>
-    </div>
-
-    <div className="slidertext">
-      <div className="sliderimg">
-        <img src="/images/mobpart.png" alt="Image 3" />
-      </div>
-      <div className="text11">
-        <h2>CUSTOMER SUPPORT</h2>
-        <p>We provide support and detailed account information at every stage of your journey. Our dedicated customer support team is available 24/5 to provide assistance with any trading-related issues or questions.</p>
-        <br />
-        <button>Visit Oslo Academy</button>
-      </div>
-    </div>
-  </div>
-</div> */}
-
-
-
-
-
-{/* <div className="unique-vertical-slider">
-      <div className="unique-slider-container">
-        <div className="unique-slider-item">
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className={`unique-slider-text ${currentIndex === index ? 'unique-active' : ''}`}
-            >
-              <div className="unique-slider-img">
-                <img src={slide.image} alt={`Image ${index + 1}`} />
-              </div>
-              <div id="unique-text-content" className="unique-text-content">
-                <h5>— 87.6 Client Satisfaction</h5>
-                <h2>{slide.title}</h2>
-                <p>{slide.description}</p>
-                <br />
-                <button>Visit Oslo Academy</button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="unique-slider-navigation">
-        <button onClick={goToPrevSlide}>Previous</button>
-        <button onClick={goToNextSlide}>Next</button>
-      </div>
-    </div> */}
-
-{/* 
-
-
-<div className="unique-vertical-slider">
-  <div className="unique-slider-container">
-    <div className="unique-slider-item">
-      {slides.map((slide, index) => (
-        <div
-          key={index}
-          className={`unique-slider-text ${currentIndex === index ? 'unique-active' : ''}`}
-        >
-          <div className="unique-slider-img">
-            <img src={slide.image} alt={`Image ${index + 1}`} />
-          </div>
-          <div id="unique-text-content" className="unique-text-content">
-            <h2>{slide.title}</h2>
-            <p>{slide.description}</p>
-            <br />
-            <button>Visit Oslo Academy</button>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-  <div className="unique-slider-navigation">
-  <button onClick={goToPrevSlide} className="up-button">
-      <i className="fas fa-arrow-up"></i>
-    </button>
-    <button onClick={goToNextSlide} className="down-button">
-      <i className="fas fa-arrow-down"></i>
-    </button>
-  </div>
-</div> */}
 
 
 
@@ -818,7 +713,7 @@ const Body = () => {
         <div class="custom-slider-img">
           <img alt="Image 1" src="/images/cu1.png"/>
         </div>
-        <div class="custom-text-content">
+        <div class="img">
           <h2>OSLO ACADEMY LEARN FROM EXPERTS</h2>
           <p>Get all the free education you need to become a better trader. Whether you’re a beginner or an expert, we’ll have something for you. From articles to educational webinars, videos, and courses; you name it, we’ll have it.</p>
           <br/><button>Visit Oslo Academy</button>
@@ -857,7 +752,7 @@ const Body = () => {
         <div class="custom-slider-img">
           <img alt="Image 4" src="/images/cu4.png"/>
         </div>
-        <div class="custom-text-content">
+        <div class="<img">
           <h2>MARKET ANALYSIS</h2>
           <p>With our expert market analysis, we help traders break down what’s happening in the markets and stay informed about the latest trends. Our analysis includes daily market commentary, and technical analysis reports.</p>
           <br/><button>Visit Oslo Academy</button>
