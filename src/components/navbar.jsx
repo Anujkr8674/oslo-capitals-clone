@@ -84,7 +84,8 @@ document.addEventListener("DOMContentLoaded", function () {
       </nav>
       <div className="logo-nav">
         <h1 className="logo">
-          OSLO<span>CAPITALS</span>
+          {/* OSLO<span>CAPITALS</span> */}
+          <img src="/images/logo.png" alt="logo with text"/>
         </h1>
         <div className="menu-icon" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
@@ -117,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           <li><a href="accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</a></li>
           <li><a href="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</a></li>
+          <li><a href="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</a></li>

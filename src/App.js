@@ -94,6 +94,7 @@ import Footer from "./components/footer";
 import AccountTypes from "./pages/AccountTypes";
 
 import VipAccount from "./pages/VipAccount";
+import RoboTrading from "./pages/RoboTrading";
 
 function App() {
   return (
@@ -103,6 +104,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/accounttype" element={<AccountTypes />} />
         <Route path="/vipaccount" element={<VipAccount/>}/>
+        <Route path="/robotrading" element={<RoboTrading/>}/>
         <Route path="/body" element={<Body />} />
         
       </Routes>

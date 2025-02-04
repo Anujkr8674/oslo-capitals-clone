@@ -1,0 +1,223 @@
+/* Base styles */
+.robo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background:url("/webminix/src/image/robo1.png"); */
+   
+  }
+  
+  .robo-hero-section {
+    background-image: url("../image/robo1.png");
+    text-align: center;
+    padding: 40px 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .robo-hero-section h1 {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .robo-intro-text {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .robo-hero-section p {
+    font-size: 1rem;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Plans Section */
+  .robo-plans-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .robo-plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .robo-plan-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .robo-plan-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .robo-plan-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .robo-plan-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .robo-account-type {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .robo-plan-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .robo-plan-card ul li {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .robo-plan-card ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .robo-hero-section h1 {
+      font-size: 2rem;
+    }
+    .robo-intro-text {
+      font-size: 1.1rem;
+    }
+    .robo-plan-card {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .robo-hero-section h1 {
+      font-size: 1.8rem;
+    }
+    .robo-intro-text {
+      font-size: 1.6rem;
+    }
+    .robo-plan-card h3 {
+      font-size: 1.3rem;
+    }
+    .robo-plans-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .roboimg    {
+        display: block !important;
+    }
+
+    .roboimg img    {
+        padding-left: 10px !important;
+    }
+
+    .decriptionrobo   {
+        display: block !important;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .robo-hero-section {
+      padding: 20px;
+    }
+
+    .roboimg img    {
+        padding-left: 10px !important;
+    }
+
+    .roboimg    {
+        display: block !important;
+    }
+    .robo-hero-section h1 {
+      font-size: 1.5rem;
+    }
+    .robo-intro-text {
+      font-size: 1.6rem;
+    }
+    .robo-hero-section p {
+      font-size: 0.9rem;
+    }
+    .robo-plan-card {
+      padding: 10px;
+      /* border-block-width: 50px; */
+        padding: 10px;
+        border: black;
+        border-radius: 40px;
+    }
+    .robo-plan-card h3 {
+      font-size: 1.2rem;
+    }
+
+    .decriptionrobo   {
+        display: block !important;
+      }
+  }
+  
+
+  .roboimg  {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .roboimage    img{
+    width: 30%;
+    height: 70%;
+    background: transparent;
+    padding-right: -100px;
+    padding-left: 300px;
+  }
+
+
+  .decriptionrobo   {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b0520;
+    border-radius: 10px;
+  }
+  
+
+  .robodecricption  {
+    width: 20%;
+
+    width: -webkit-fill-available;
+    padding-right: 20%;
+  }
+
+
+  .decriptionroboimg img{
+    height: -webkit-fill-available;
+    width: 90%;
+  }
+
+  .robodecricption ul li{
+    list-style: none;
+    color: #fff;
+  }
