@@ -302,7 +302,7 @@ const Body = () => {
 
       <div className="imgtext">
         <div className="img1">
-          <img src="/images/man.jpg" alt="man img"/>
+          <img src="/images/man.jpg" alt="man "/>
           <div className="overlay-text"><b className="b">12</b> Years of<br/><span className="span">Experience </span> </div>
         </div>
 
@@ -555,7 +555,7 @@ const Body = () => {
               > 
                 <div className="imgflex">
                 <div className="testimonial-image">
-                  <img src="/images/clip.jpg" alt="testimonial image" />
+                  <img src="/images/clip.jpg" alt="testimonial " />
                 </div>
                 
                 <h4>- John D.</h4>
@@ -573,7 +573,7 @@ const Body = () => {
               > 
                 <div className="imgflex">
                 <div className="testimonial-image">
-                  <img src="/images/clip.jpg" alt="testimonial image" />
+                  <img src="/images/clip.jpg" alt="testimonial" />
                 </div>
                 
                 <h4>- John D.</h4>
@@ -591,7 +591,7 @@ const Body = () => {
               > 
                 <div className="imgflex">
                 <div className="testimonial-image">
-                  <img src="/images/clip.jpg" alt="testimonial image" />
+                  <img src="/images/clip.jpg" alt="testimonial " />
                 </div>
                 
                 <h4>- John D.</h4>
@@ -609,7 +609,7 @@ const Body = () => {
               > 
                 <div className="imgflex">
                 <div className="testimonial-image">
-                  <img src="/images/clip.jpg" alt="testimonial image" />
+                  <img src="/images/clip.jpg" alt="testimonial " />
                 </div>
                 
                 <h4>- John D.</h4>
@@ -711,7 +711,7 @@ const Body = () => {
     <div class="custom-slider-item">
       <div class="custom-slider-text">
         <div class="custom-slider-img">
-          <img alt="Image 1" src="/images/cu1.png"/>
+          <img alt="cu1" src="/images/cu1.png"/>
         </div>
         <div class="img">
           <h2>OSLO ACADEMY LEARN FROM EXPERTS</h2>
@@ -723,7 +723,7 @@ const Body = () => {
     <div class="custom-slider-item">
       <div class="custom-slider-text">
         <div class="custom-slider-img">
-          <img alt="Image 2" src="/images/cu2.png"/>
+          <img alt="cu 2" src="/images/cu2.png"/>
         </div>
         <div class="custom-text-content">
           <h2>ECONOMIC CALENDAR TRADE WITH ACCURACY</h2>
@@ -738,7 +738,7 @@ const Body = () => {
     <div class="custom-slider-item">
       <div class="custom-slider-text">
         <div class="custom-slider-img">
-          <img alt="Image 3" src="/images/cu3.png"/>
+          <img alt="cu 3" src="/images/cu3.png"/>
         </div>
         <div class="custom-text-content">
           <h2>CUSTOMER SUPPORT</h2>
@@ -750,7 +750,7 @@ const Body = () => {
     <div class="custom-slider-item active">
       <div class="custom-slider-text">
         <div class="custom-slider-img">
-          <img alt="Image 4" src="/images/cu4.png"/>
+          <img alt="cu 4" src="/images/cu4.png"/>
         </div>
         <div class="<img">
           <h2>MARKET ANALYSIS</h2>
