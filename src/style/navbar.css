@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-banner {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #f8f9fa;
+  }
+  
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .top-nav ul li a {
+    text-decoration: none;
+    color: rgb(41, 38, 38);
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  
+  .logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .logo span {
+    color: blue;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .main-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .open-account {
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+
+  .account  {
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .open-account:hover {
+    background: darkblue;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .licence  {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 768px) {
+    .main-nav {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 250px;
+      height: 100vh;
+      background: white;
+      padding: 20px;
+      box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.1);
+      transition: right 0.3s ease-in-out;
+      z-index: 1000;
+    }
+  
+    .main-nav.active {
+      right: 0;
+    }
+
+    .top-nav    {
+        display: none;
+    }
+
+    .top-nav ul {
+        display: none;
+    }
+    .open-account   {
+        display: none;
+    }
+
+    .account    {
+        display: inline;
+    }
+    #licence, #account, #login {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+  }
+
+  #login    {
+    background-color: #776c596e;
+        color: black;
+        border-radius: 20%;
+  }
+  
+    .main-nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .main-nav ul li {
+      padding: 15px 0;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .logo-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    /* Dark overlay when menu is open */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+
+
+    .custom-dropdown-menu {
+      display: inline;
+    }
+  }
+
+
+
+  
+  
+
+  .option    {
+    margin-left: -50px;
+  }
+
+
+  .close-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .part {
+    display: flex;
+    justify-content: flex-start;
+    width: min-content;
+  }
+
+  /* .dropdown {
+    display: none;
+  } */
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  #dropdown{
+    /* display: inline; */
+    color:white;
+  }
+
+  #dropdown:hover   {
+    display: block;
+    background-color: rgb(126, 155, 155);
+    color: black;
+  }
+
+
+
+  .custom-dropdown {
+    position: relative;
+  }
+
+  .custom-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: max-content;
+    align-items: center;
+  }
+
+  .custom-dropdown:hover .custom-dropdown-menu {
+    display: block;
+  }
+
+  .custom-dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    display: block;
+    font-size: 12px;
+  }
+
+  .custom-dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+  }
+
+.head {
+    text-decoration: underline;
+  }
+
+  .drop1    {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .foot {
+    text-align: center;
+  }
+ 
+
+  #stock {
+    width: 500px;
+    height: 300px;
+  }
+
+  .android  {
+    background-color: navy;
+    color: white;
+    margin-top: 10px;
+  }
+
+  #h5   {
+    background-color: navy;
+    color: white;
+    width: 200px;
+  }
+
+  #para {
+    background-color: green;
+    color: black;
+    border-radius: 10%;
+    width: 250px;
+  }
+
+  .textpara {
+    margin-left: 50px;
+  }
+
+
+  #mob  {
+    align-items: center;
+    height: 70px;
+    width: 120px;
+  }
+
+
+  #mman{
+    width: 300px;
+    height: 300px;
+  }
+
+  .oslo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footimg1 {
+    display: flex;
+  }
+
+  .color    {
+    background-color: rgb(143, 154, 154);
+  }
+  #guide    {
+     border-radius: 40%;
+     margin-left: 20px;
+  }
+
+  
+  #foot1    {
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  #p1   {
+    margin-left: 10px;
+  }
+  .stocktext  p  {
+    margin-right: 15px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .footerimg    {
+    display: flex;
+  }
+
+
+  #vist    {
+    background-color: navy;
+    color: white;
+  }
+  
+
+  #image    {
+    height: 100px;
+    width: 100px;
+  }
+
+  .company  {
+    display: flex;
+  }
+
+  .open-account {
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+
+
+
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+    width: auto; /* Auto width taaki content adjust ho */
+    min-width: 200px; /* Minimum width set karna zaroori hai */
+    z-index: 1000;
+    max-width: 90vw; /* Window ke andar rakhne ke liye */
+    overflow-x: auto; /* Agar content zyada ho to horizontal scroll aaye */
+  }
+  
+  .custom-dropdown:custom-dropdown-menu .custom-dropdown-menu {
+    display: block;
+  }
+  
+
+
+  #navbar {
+    position: fixed; /* Navbar ko fixed position pe rakhne ke liye */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white; /* Navbar ka background fix karna zaroori hai */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for better UI */
+    z-index: 1000; /* Ensure it stays above other elements */
+    padding: 10px 20px;
+  }
+
+
+
+  /* Top Navbar */
+.top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    transition: top 0.3s ease-in-out;
+    z-index: 1001;
+  }
+  
+  /* Hidden Class for Top Navbar */
+  .top-navbar.hidden {
+    top: -50px; /* Hide when scrolling down */
+  }
+  
+  /* Main Navbar */
+  .main-navbar {
+    position: fixed;
+    top: 50px; /* Initially below Top Navbar */
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000;
+  }
+
+
+  /* @media screen and (max-width: 768px) {
+    .drop1  {
+      display: block;
+    }
+  } */
+
+
+
+  @media screen and (max-width: 768px) {
+    .drop1, .part,.oslo, .about, .company {
+        display: block;
+        max-height: 300px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enables vertical scrolling */
+        overflow-x: hidden; /* Hides horizontal scrolling */
+        scrollbar-width: thin; /* Makes scrollbar thinner */
+        scrollbar-color: #888 #f1f1f1; /* Custom scrollbar color */
+    }
+
+    #stock, #mob {
+      height: 300px;
+      width: 300px;
+    }
+
+    /* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+    .drop1::-webkit-scrollbar {
+        width: 6px; /* Scrollbar width */
+    }
+
+    .drop1::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Track background */
+    }
+
+    .drop1::-webkit-scrollbar-thumb {
+        background: #888; /* Scrollbar color */
+        border-radius: 3px; /* Rounded scrollbar */
+    }
+
+    .drop1::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Darker color on hover */
+    }
+}
+
+  /* Make the navbar fixed at the top */
+.logo-nav {
+  position: fixed; /* Fixes the navbar */
+  top: 0; /* Keeps the navbar at the top */
+  left: 0; /* Ensures the navbar aligns with the left side of the page */
+  width: 100%; /* Ensures the navbar spans the entire width */
+  background-color: #fff; /* You can adjust this based on your design */
+  z-index: 1000; /* Ensures it stays on top of other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for separation */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+/* Optional: Add space at the top of the page so the content doesn't get hidden under the fixed navbar */
+body {
+  padding-top: 60px; /* Adjust this value based on your navbar's height */
+}
+
+
+

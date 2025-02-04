@@ -1,0 +1,155 @@
+.footer {
+    background-color: #001c8c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-column {
+    width: 22%;
+    text-align: left;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .app-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .app-buttons img {
+    width: 120px;
+    max-width: 100%;
+  }
+  
+  .footerlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .footerlogo img {
+    width: 80px;
+    max-width: 100%;
+  }
+  
+  .insurance {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .insurance-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .insurance-box img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .company-info, .risk-warning {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .risk-warning {
+    color: #ffcc00;
+  }
+  
+  /* --- Responsive Design --- */
+  @media screen and (max-width: 1024px) {
+    .footer-column {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-sections {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-column h3 {
+      margin-top: 15px;
+    }
+  
+    .app-buttons {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .insurance {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .insurance-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .insurance-box img {
+      margin: 10px 0;
+    }
+  
+    .footerlogo {
+      justify-content: center;
+    }
+  }
+  

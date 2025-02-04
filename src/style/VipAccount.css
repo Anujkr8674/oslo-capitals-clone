@@ -1,0 +1,198 @@
+.account-types {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .account-section {
+    background-image: url("../image/acbg.png");
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    height: 400px;
+    width: auto;
+    opacity: 0.9;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+  .accounttext p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+
+
+
+
+  .account-vip{
+    background-color: rgba(255, 255, 255, 0.772);
+    /* width: 20%; */
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+  .account-comparison1 {
+    display: flex;
+    flex-direction: column; /* Aligns elements in a column */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: auto; /* Full viewport height */
+    background-color: #141336; /* Optional background */
+    text-align: center;
+  }
+  
+  .account-vip {
+    /* background-color: #fffffc; */
+    background: linear-gradient(to bottom, #4f4e68, #fffdcd, #fdfdfc);
+    
+    /* width: 23%; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .account-vip {
+    background: linear-gradient(to right, #4f4e68, #fffdcd, #fdfdfc);
+
+  }
+
+  .account-vip {
+    background: radial-gradient(circle, #4f4e68, #fffdcd, #fdfdfc);
+
+  }
+
+  .account-section  h1  {
+    padding-top: 10%;
+    padding-left: 5%;
+    color: black;
+    font-size: 40px;
+  }
+
+  .account-section p{
+    color: black;
+  }
+
+
+  .account-vip h3{
+    color: blue;
+  }
+
+  .account-vip button   {
+    width: auto;
+  }
+
+  .account-comparison1 h2   {
+    font-size: 40px;
+    color: white;
+  }
+
+
+  /* .account-vip h5{
+    background-color: green;
+    color: white;
+    width: fit-content;
+    height: auto;
+    font-size: 20px;
+    margin-top: -20px;
+    border-radius: 5%;
+    align-items: center;
+   
+    margin-left: 40%;
+  } */
+
+
+  .account-vip h5 {
+    background-color: green;
+    color: white;
+    width: fit-content;
+    height: auto;
+    font-size: 20px;
+    margin-top: -10px;
+    border-radius: 5%;
+    display: flex;             /* Enable Flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    text-align: center;        /* Optional: Center text horizontally */
+    padding: 10px;             /* Optional: Add padding */
+    margin-left: 20%;
+}
+
+
+#p{
+    color: blue;
+    font-size: 25px;
+    font-weight: 700;
+    background:transparent;
+    text-align: center;
+    align-items: center;
+    padding-left: 15%;
+  }
+  
+  .imp1 {
+    margin-top: 20px;
+    /* width: 60%; */
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #imp  {
+    text-align: left;
+    color: #53546b;
+    
+  }
+  
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .account-vip {
+      max-width: 80%;
+      padding: 15px;
+    }
+  
+    .account-vip h3 {
+      font-size: 20px;
+    }
+  
+    .account-vip p {
+      font-size: 14px;
+    }
+  
+    .account-vip button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .account-vip {
+      max-width:auto;
+      padding: 10px;
+    }
+  
+    .account-vip h3 {
+      font-size: 18px;
+    }
+  
+    .account-vip p {
+      font-size: 12px;
+    }
+  
+    .account-vip button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  
+
+  #vipp{
+    font-size: 12px;
+  }
