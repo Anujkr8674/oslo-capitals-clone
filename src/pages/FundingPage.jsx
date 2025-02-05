@@ -9,13 +9,13 @@ const fundingOptions = [
     time: "Instant funding",
     fees: "No fees",
   },
-  {
-    id: "bank-transfer",
-    name: "Bank Transfer",
-    currencies: "AUD, CAD, EUR, GBP, HKD, JPY, NZD, SGD, USD, AED",
-    time: "1 business day from when the funds are received",
-    fees: "No fees",
-  },
+//   {
+//     id: "bank-transfer",
+//     name: "Bank Transfer",
+//     currencies: "AUD, CAD, EUR, GBP, HKD, JPY, NZD, SGD, USD, AED",
+//     time: "1 business day from when the funds are received",
+//     fees: "No fees",
+//   },
   {
     id: "neteller",
     name: "Neteller",
