@@ -68,10 +68,11 @@ body {
   .open-account {
     background: blue;
     color: white;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     border: none;
     cursor: pointer;
     font-weight: bold;
+    justify-content: space-between;
     
   }
 
@@ -383,7 +384,7 @@ body {
 
   .open-account {
     margin-left: 5px;
-    font-size: 8px;
+    font-size: 10px;
   }
 
 
@@ -515,6 +516,7 @@ body {
   z-index: 1000; /* Ensures it stays on top of other elements */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for separation */
   padding: 10px 20px; /* Adjust the padding as needed */
+  width: -webkit-fill-available;
 }
 
 /* Optional: Add space at the top of the page so the content doesn't get hidden under the fixed navbar */

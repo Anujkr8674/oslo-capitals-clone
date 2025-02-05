@@ -119,10 +119,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <h3 className="head"><b>ACCOUNTS</b></h3>
           
           <li><Link to="/accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</Link></li>
-          <li><a href="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</a></li>
-          <li><a href="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</a></li>
+          <li><Link to="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</Link></li>
+          <li><Link to="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</Link></li>
+          <li><Link to="/copytrading"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</Link></li>
+          <li><Link to="/funding"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</Link></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> (VIP) Withdrawal Request</a></li>
         </div>
@@ -389,13 +389,18 @@ document.addEventListener("DOMContentLoaded", function () {
     </li>
     </li>
             {/* <li><a href="#" onClick={closeMenu}>Company</a></li> */}
-            <li><a href="/" onClick={closeMenu}>Promotions</a></li>
+            {/* <li><a href="/" onClick={closeMenu}>Promotions</a></li> */}
             <li><a href="/" onClick={closeMenu}>Help Center</a></li>
           </ul>
         </nav>
-        <button className="open-account">Open Account</button>
+        {/* <button className="open-account">Open Account</button> */}
+        <a href="https://trade.extrede.com/register/">
+          <button className="open-account">Open Account</button>
+      </a>
         <br/>
-        <button className="open-account">Login</button>
+        <a href="https://trade.extrede.com/login/">
+          <button className="open-account">Login</button>
+        </a>
       </div>
       {menuOpen && <div className="overlay" onClick={closeMenu}></div>}
     </header>
