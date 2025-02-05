@@ -86,7 +86,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <div className="logo-nav">
         <h1 className="logo">
           {/* OSLO<span>CAPITALS</span> */}
-          <img src="/images/logo.png" alt="logo with text"/>
+          {/* <img src="/images/logo.png" alt="logo with text"/> */}
+          <img src="/images/mainlogo.png" alt="mainlogo"/>
         </h1>
         <div className="menu-icon" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
