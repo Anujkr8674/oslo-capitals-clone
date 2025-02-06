@@ -76,11 +76,27 @@ document.addEventListener("DOMContentLoaded", function () {
             </select>
           </li>
         </ul>
+
+
+        <a href="https://trade.extrede.com/register/">
+          <button id="open-account" className="open-account">Open Account</button>
+      </a>
+        <br/>
+        <a href="https://trade.extrede.com/login/">
+          <button id="open-account" className="open-account">Login</button>
+        </a>
+
+        
         <div id="licence" className="license">
           <a href="#">Govt.UK License</a>
         
-        <button id="account"className="account">Open Account</button>
-        <button id="login"className="account">Login</button>
+          <a href="https://trade.extrede.com/register/">
+            <button id="account"className="account"><i class="fa-regular fa-address-card"></i> Open Account</button>
+          </a>
+
+          <a href="https://trade.extrede.com/login/">
+            <button id="login"className="account"><i class="fa-regular fa-user"></i> Login</button>
+          </a>
         </div>
       </nav>
       <div className="logo-nav">
@@ -114,17 +130,19 @@ document.addEventListener("DOMContentLoaded", function () {
 <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
       <div className="drop1">
+        
         <div className="account1">
 
           <h3 className="head"><b>ACCOUNTS</b></h3>
+          
           
           <li><Link to="/accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</Link></li>
           <li><Link to="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</Link></li>
           <li><Link to="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</Link></li>
           <li><Link to="/copytrading"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</Link></li>
           <li><Link to="/funding"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</Link></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> (VIP) Withdrawal Request</a></li>
+          <li><Link to="/withdraw"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</Link></li>
+          <li><Link to="/vipaccountwithdraw"><i class="fa-solid fa-arrow-trend-up"></i> (VIP) Withdrawal Request</Link></li>
         </div>
 
         
@@ -215,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     <li className="custom-dropdown">
-  {/* <a href="#"><i class="fa-solid fa-caret-down"></i> Partners </a> */}
+
   <a href="#" onClick={() => toggleDropdown("partners")}><i class="fa-solid fa-caret-down"></i>Partners</a>
   {openDropdown === "partners" && (
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
@@ -253,19 +271,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
           
-            {/* <li><a href="#" onClick={closeMenu}>Partners</a></li> */}
+
 
             <li className="custom-dropdown">
   {/* <a href="#"><i class="fa-solid fa-caret-down"></i> Oslo Academy </a> */}
-  <a href="#" onClick={() => toggleDropdown("oslo")}><i class="fa-solid fa-caret-down"></i> Oslo Academy</a>
+  <a href="#" onClick={() => toggleDropdown("oslo")}><i class="fa-solid fa-caret-down"></i> Extrede Academy</a>
   {openDropdown === "oslo" && (
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
           <div className="oslo">
             <div className="oslopara">
-              <p>Learn all about trading with<br/> Oslo Academy and get the<br/> latest financial news plus in-<br/>depth market analysis.</p>
+              <p>Learn all about trading with<br/> Extrede Academy and get the<br/> latest financial news plus in-<br/>depth market analysis.</p>
               <br/>
-              <button id="vist">Vist Oslo Academy </button>
+              <button id="vist">Vist extrede Academy </button>
             </div>
 
             <div className="top">
@@ -392,15 +410,19 @@ document.addEventListener("DOMContentLoaded", function () {
             {/* <li><a href="/" onClick={closeMenu}>Promotions</a></li> */}
             <li><a href="/" onClick={closeMenu}>Help Center</a></li>
           </ul>
+          
         </nav>
-        {/* <button className="open-account">Open Account</button> */}
+
+        <div id="regbutton" className="regbutton">
         <a href="https://trade.extrede.com/register/">
-          <button className="open-account">Open Account</button>
+          <button className="open-account"><i class="fa-regular fa-address-card"></i> Open Account</button>
       </a>
         <br/>
         <a href="https://trade.extrede.com/login/">
-          <button className="open-account">Login</button>
+          <button className="open-account">  <i class="fa-regular fa-user"></i>  Login</button>
         </a>
+        </div>
+      
       </div>
       {menuOpen && <div className="overlay" onClick={closeMenu}></div>}
     </header>

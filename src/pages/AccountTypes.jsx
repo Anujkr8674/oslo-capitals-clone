@@ -354,6 +354,9 @@ const AccountTypes = () => {
           {/* payment */}
 
 
+          <h1 id="payment">Payment protection</h1>
+    <p id="payment">Read about our various premium payment security features to protect your payment transactions.</p>
+    
           <div className="imgtext">
 
       

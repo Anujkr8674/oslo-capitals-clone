@@ -63,7 +63,7 @@ const Body = () => {
     {
       image: "/images/cu1.png",
       // title: "— 87.6 Client Satisfaction",
-      title: "OSLO ACADEMY LEARN FROM EXPERTS",
+      title: "EXTREDE ACADEMY LEARN FROM EXPERTS",
       description: "Get all the free education you need to become a better trader. Whether you’re a beginner or an expert, we’ll have something for you. From articles to educational webinars, videos, and courses; you name it, we’ll have it.",
     },
     {
@@ -309,11 +309,11 @@ const Body = () => {
         <div className="text">
           <p id="p">Proud to take care of your investment journey</p>
           
-          <h3><b>Oslo Capitals – Everyone’s
+          <h3><b>Extrede – Everyone’s
             Trusted CFD Broker</b>
           </h3>
           <p>One of the world's leading CFD brokers with over 12 years of market
-            experience, Oslo Capitals provides traders a CFD trading platform with
+            experience, Extrede Capitals provides traders a CFD trading platform with
             access to 1,000+ CFD products, including forex, indices, commodities,
             shares, ETFs, and even bonds.Trade CFDs with ease on desktop or mobile
             using our variety of advanced trading tools and features from your home
@@ -366,6 +366,7 @@ const Body = () => {
             <img src="/images/citi.png" alt="partner" />
             <img src="/images/jp.png" alt="partner" />
             <img src="/images/hsbc.png" alt="partner" />
+            
 
             <img src="/images/hsbc.png" alt="partner" />
             <img src="/images/citi.png" alt="partner" />
@@ -561,7 +562,7 @@ const Body = () => {
                 <h4>- John D.</h4>
                 </div>
                 <p>
-                  "Oslo Capitals provides excellent trading tools! The execution
+                  "Extrede provides excellent trading tools! The execution
                   speed is incredible, and the spreads are tight. Highly
                   recommended!"
                 </p>
@@ -579,7 +580,7 @@ const Body = () => {
                 <h4>- John D.</h4>
                 </div>
                 <p>
-                  "Oslo Capitals provides excellent trading tools! The execution
+                  "Extrede provides excellent trading tools! The execution
                   speed is incredible, and the spreads are tight. Highly
                   recommended!"
                 </p>
@@ -597,7 +598,7 @@ const Body = () => {
                 <h4>- John D.</h4>
                 </div>
                 <p>
-                  "Oslo Capitals provides excellent trading tools! The execution
+                  "Extrede provides excellent trading tools! The execution
                   speed is incredible, and the spreads are tight. Highly
                   recommended!"
                 </p>
@@ -615,7 +616,7 @@ const Body = () => {
                 <h4>- John D.</h4>
                 </div>
                 <p>
-                  "Oslo Capitals provides excellent trading tools! The execution
+                  "Extredeprovides excellent trading tools! The execution
                   speed is incredible, and the spreads are tight. Highly
                   recommended!"
                 </p>
@@ -634,7 +635,7 @@ const Body = () => {
               <h4>- John D.</h4>
               </div>
               <p>
-                "Oslo Capitals provides excellent trading tools! The execution
+                "Extrede provides excellent trading tools! The execution
                 speed is incredible, and the spreads are tight. Highly
                 recommended!"
               </p>
@@ -652,7 +653,7 @@ const Body = () => {
               <h4>- John D.</h4>
               </div>
               <p>
-                "Oslo Capitals provides excellent trading tools! The execution
+                "Extrede provides excellent trading tools! The execution
                 speed is incredible, and the spreads are tight. Highly
                 recommended!"
               </p>
@@ -685,7 +686,7 @@ const Body = () => {
                 <h2>{slide.title}</h2>
                 <p>{slide.description}</p>
                 <br />
-                <button>Visit Oslo Academy</button>
+                <button>Visit Extrede Academy</button>
               </div>
             </div>
           ))}
@@ -713,10 +714,11 @@ const Body = () => {
         <div class="custom-slider-img">
           <img alt="cu1" src="/images/cu1.png"/>
         </div>
-        <div class="img">
-          <h2>OSLO ACADEMY LEARN FROM EXPERTS</h2>
+        {/* <div class="img"> */}
+        <div class="custom-text-content">
+          <h2>EXTREDE ACADEMY LEARN FROM EXPERTS</h2>
           <p>Get all the free education you need to become a better trader. Whether you’re a beginner or an expert, we’ll have something for you. From articles to educational webinars, videos, and courses; you name it, we’ll have it.</p>
-          <br/><button>Visit Oslo Academy</button>
+          <br/><button>Visit ExtredeAcademy</button>
         </div>
       </div>
     </div>
@@ -728,7 +730,7 @@ const Body = () => {
         <div class="custom-text-content">
           <h2>ECONOMIC CALENDAR TRADE WITH ACCURACY</h2>
           <p>Stay ahead of the game with our comprehensive economic calendar. Track important, market-moving events effortlessly and anticipate major movements in the market. Our calendar keeps you informed about key dates and times, so you can make smarter trading decisions with confidence.</p>
-          <br/><button>Visit Oslo Academy</button>
+          <br/><button>Visit Extrede Academy</button>
         </div>
       </div>
     </div>
@@ -743,7 +745,7 @@ const Body = () => {
         <div class="custom-text-content">
           <h2>CUSTOMER SUPPORT</h2>
           <p>We provide support and detailed account information at every stage of your journey. Our dedicated customer support team is available 24/5 to provide assistance with any trading-related issues or questions.</p>
-          <br/><button>Visit Oslo Academy</button>
+          <br/><button>Visit Extrede Academy</button>
         </div>
       </div>
     </div>
@@ -752,10 +754,11 @@ const Body = () => {
         <div class="custom-slider-img">
           <img alt="cu 4" src="/images/cu4.png"/>
         </div>
-        <div class="<img">
+        {/* <div class="<img"> */}
+        <div class="custom-text-content">
           <h2>MARKET ANALYSIS</h2>
           <p>With our expert market analysis, we help traders break down what’s happening in the markets and stay informed about the latest trends. Our analysis includes daily market commentary, and technical analysis reports.</p>
-          <br/><button>Visit Oslo Academy</button>
+          <br/><button>Visit Extrede Academy</button>
         </div>
       </div>
     </div>
@@ -771,7 +774,7 @@ const Body = () => {
       <section className="oslo-academy">
         <div className="btndiv">
       <div className="oslo-header">
-        <h2>Oslo Academy</h2>
+        <h2>Extrede Academy</h2>
         <button className="visit-btn">Visit Academy</button>
       </div>
      
@@ -788,7 +791,7 @@ const Body = () => {
             alt="Best intraday trading strategies"
             className="oslo-card-image"
           />
-          <p className="oslo-learn">OSLO LEARN • 5 YEARS AGO</p>
+          <p className="oslo-learn"> EXTREDE LEARN • 5 YEARS AGO</p>
           <h3 className="oslo-title">Best trading strategies and techniques</h3>
         </div>
 
@@ -798,7 +801,7 @@ const Body = () => {
             alt="Trading Principles"
             className="oslo-card-image"
           />
-          <p className="oslo-learn">OSLO LEARN • 5 YEARS AGO</p>
+          <p className="oslo-learn"> EXTREDE LEARN • 5 YEARS AGO</p>
           <h3 className="oslo-title">Trading Principles</h3>
         </div>
 
@@ -808,7 +811,7 @@ const Body = () => {
             alt="Why Trade Forex: Forex vs. Stocks"
             className="oslo-card-image"
           />
-          <p className="oslo-learn">OSLO LEARN • 6 YEARS AGO</p>
+          <p className="oslo-learn"> EXTREDE LEARN • 6 YEARS AGO</p>
           <h3 className="oslo-title">Why Trade Forex: Forex vs. Stocks?</h3>
         </div>
 
@@ -818,7 +821,7 @@ const Body = () => {
             alt="How to Make Money Trading Forex?"
             className="oslo-card-image"
           />
-          <p className="oslo-learn">OSLO LEARN • 6 YEARS AGO</p>
+          <p className="oslo-learn"> EXTREDE LEARN • 6 YEARS AGO</p>
           <h3 className="oslo-title">How to Make Money Trading Forex?</h3>
         </div>
       </div>
@@ -840,7 +843,7 @@ const Body = () => {
             <div>
               <h3 className="text-xl font-semibold">1   Register</h3>
               <p>
-                Signup for an Oslo Capitals account and get access to world-class
+                Signup for an Extrede Capitals account and get access to world-class
                 pricing.
               </p>
               <button id="open" className="mt-2 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">

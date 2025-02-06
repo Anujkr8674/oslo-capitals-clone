@@ -1,16 +1,3 @@
-// import React from "react";
-// // import "./Footer.css";
-
-// const Footer = () => {
-//   return (
-//     <footer className="footer">
-//       <p>© 2024 Oslo Capitals. All Rights Reserved.</p>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
-
 
 
 
@@ -22,9 +9,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <br/><br/>
-        <h2>OLSO CAPITALS LLC</h2>
+        <h2> EXTREDE LLC</h2>
         <p>
-          With 12 years team experience, Olso Capitals LLC is one of the most
+          With 12 years team experience, ExtredeLLC is one of the most
           secure, fast and trustworthy trading platforms in the industry.
         </p>
 
@@ -102,7 +89,7 @@ const Footer = () => {
               <strong>Our Civil Liability Insurance Programme</strong>
               <br />
               Our Civil Liability Insurance Programme can provide compensation
-              under a claim of financial loss made against Oslo Capitals LLC{" "}
+              under a claim of financial loss made against Extrede Capitals LLC{" "}
               <strong>
                 as a result of error, omission, negligence, fraud, or failure to
                 perform our activities or services for a value of up to £5
@@ -114,7 +101,7 @@ const Footer = () => {
         </div>
 
         <p className="company-info">
-          <strong>Olso Capitals LLC</strong> is a financial brokerage company
+          <strong>Extrede LLC</strong> is a financial brokerage company
           regulated by Financial Conduct Authority (registration no. SEO389),
           Cyprus Securities and Exchange Commission (licence no. 182/015), the
           Central Bank of Curaçao and Sint Maarten (license no. 000210N).

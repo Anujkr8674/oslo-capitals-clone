@@ -145,7 +145,6 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    gap: 34px;
   }
 
 
@@ -168,7 +167,7 @@
   /* Third Party Payments Section */
   .funding-third-party {
     background: #f9f9f9;
-    padding: 50px 130px;
+    padding: 50px 20px;
     text-align: left;
   }
   
@@ -223,12 +222,7 @@
       width: -webkit-fill-available;
       margin-left: -22%;
     }
-
-    .funding-third-party {
-      padding: 20px;
-    }
   }
-  
   
 
  
@@ -244,3 +238,5 @@
   #payment  {
     text-align: center;
   }
+
+  
