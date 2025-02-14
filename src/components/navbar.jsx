@@ -148,10 +148,10 @@ document.addEventListener("DOMContentLoaded", function () {
         
         <div className="insturments">
         <h3 className="head"><b>INSTURMENTS</b></h3>
-        <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Commodities</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Share CFDs</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Bonds CFDs</a></li>
+        <li><Link to="/forex"><i class="fa-solid fa-arrow-trend-up"></i> Forex</Link></li>
+          <li><Link to="/commodities"><i class="fa-solid fa-arrow-trend-up"></i> Commodities</Link></li>
+          <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Share CFDs</Link></li>
+          <li><Link to ="/bondcfd"><i class="fa-solid fa-arrow-trend-up"></i> Bonds CFDs</Link></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Metal</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Indices</a></li>
          

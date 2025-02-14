@@ -1,0 +1,387 @@
+
+
+
+.forex-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .forex-hero {
+    position: relative;
+    background-image: url("../image/forexbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: auto;
+    width: -webkit-fill-available;
+  }
+  
+
+  .forex-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+  .forex-hero * {
+    position: relative;
+    z-index: 2;
+}
+  
+
+  .forex-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+
+  .forex-hero h1  {
+    font-size: 55px;
+  }
+
+  .forex-hero p span{
+    font-size: 1.2rem;
+    /* max-width: 100px; */
+    margin: auto;
+    text-align: left;
+    font-weight: 700;
+  }
+
+
+  .forex-reasons {
+    text-align: center;
+    padding: 40px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #F4FADA 100%);
+  }
+  
+  .forex-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on large screens */
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+
+  .forex-what-is {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical center */
+    align-items: center; /* Horizontal center */
+    text-align: center;
+    background-color: #000a44;
+    color: #FFFFFF;
+    height: 300px;
+    padding: 20px; /* Extra padding for better spacing */
+  }
+  
+  .forex-what-is h2 {
+    margin-bottom: 10px; /* Space between h2 and p */
+  }
+  
+  .forex-what-is p {
+    max-width: 80%; /* To prevent text from stretching too wide */
+    line-height: 1.5; /* Improves readability */
+  }
+
+  
+  .forex-best-platform {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    width: 50%;
+  }
+  
+  .forex-best-platform h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .text-content p {
+    font-size: 1 rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .text-content ul {
+    /* list-style: none; */
+    padding: 0;
+  }
+  
+  .text-content li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .image-container {
+    width: 45%;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  #broker {
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #fff;
+    margin-top: -100px;
+    height: -webkit-fill-available;
+  }
+
+ 
+
+  #red  {
+    background-color: none;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+    margin-top: -100px;
+    height: -webkit-fill-available;
+  }
+
+  
+.p {
+  text-align: center;
+  padding: 10%;
+}
+
+  .forex-card {
+    background-color: #000a44; /* Dark blue background */
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forex-table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20%;
+  }
+  
+  .forex-table th, .forex-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+   .forex-why-trade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.578);
+  }
+  
+  .text1, .text2 {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .text2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .text2 ul li i {
+    color: green;
+  }
+  
+  #forex {
+    text-align: center;
+    font-weight: 800;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .forex-hero {
+      padding: 30px;
+    }
+    .forex-table th, .forex-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    .forex-why-trade {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .text1, .text2 {
+      max-width: 90%;
+      text-align: left;
+    }
+  
+    .text2 ul li {
+      justify-content: center;
+    }
+
+    .forex-grid {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+
+    .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-content, .image-container {
+      width: 100%;
+      text-align: left;
+    }
+
+    .forex-best-platform h2 {
+      color: var(--e-global-color-6505854);
+      font-family: "Inter", Sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2em
+    }
+
+    #trade1  {
+      text-align: left;
+      color: var(--e-global-color-6505854);
+      font-family: "Inter", Sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2em;
+    }
+
+    #broker {
+      align-items: center;
+      padding-left: 1%;
+      padding-right: 1%;
+      background-color: #fff;
+      /* margin-top: -100px; */
+      height: -webkit-fill-available;
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    .forex-hero {
+      padding: 20px;
+    }
+    .forex-table th, .forex-table td {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
+
+
+  .forex-spreads {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .forex-spreads h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .forex-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .forex-table th, .forex-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .forex-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .forex-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .forex-table {
+      font-size: 0.9rem;
+    }
+  
+    .forex-table th, .forex-table td {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .forex-table th, .forex-table td {
+      padding: 6px;
+      font-size: 0.8rem;
+    }
+  
+    .forex-spreads h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
