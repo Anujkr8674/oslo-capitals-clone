@@ -51,6 +51,12 @@
   .indices-hero p {
     font-size: 20px;
     color: #fff;
+
+   
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    
   }
   
   /* Sections Styling */
@@ -464,6 +470,7 @@
     }
     .indices-hero h1 {
       font-size: 2em;
+      padding-top: 5px;
     }
 
 
@@ -553,6 +560,7 @@
     }
     .indices-hero h1 {
       font-size: 1.8em;
+      padding-top: 5px;
     }
     .indices-hero p {
       font-size: 0.9em;

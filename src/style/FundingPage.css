@@ -18,7 +18,8 @@
     color: #fff;
     text-align: left;
     padding: 40px 20px;
-    height: auto;
+    /* height: auto; */
+    height: 400px;
     width: -webkit-fill-available;
 }
 
@@ -44,6 +45,7 @@
     font-size: 3rem;
     text-align: left;
     font-weight: 900;
+    padding-top: 100px;
   }
   
   .funding-header p {
@@ -226,6 +228,15 @@
 
     .funding-third-party {
       padding: 20px;
+    }
+
+    .funding-header {
+      height: 200px;
+
+    }
+
+    .funding-header h1{
+      padding-top: 10px;
     }
   }
   

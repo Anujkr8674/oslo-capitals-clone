@@ -137,8 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
           
           
           <li><Link to="/accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</Link></li>
-          <li><Link to="vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</Link></li>
-          <li><Link to="robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</Link></li>
+          <li><Link to="/vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</Link></li>
+          <li><Link to="/robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</Link></li>
           <li><Link to="/copytrading"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</Link></li>
           <li><Link to="/funding"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</Link></li>
           <li><Link to="/withdraw"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</Link></li>
