@@ -19,6 +19,9 @@ import ForexPage from "./pages/ForexPage";
 import CommoditiesTrading from "./pages/CommoditiesTrading";
 import ShareCfd from "./pages/ShareCfd";
 import BondCfd from "./pages/BondCfd";
+import MetalsTrading from "./pages/MetalsTrading";
+import IndicesTrading from "./pages/IndicesTrading";
+import ExecutionPolicy from "./pages/ExecutionPolicy";
 
 function App() {
   return (
@@ -40,7 +43,10 @@ function App() {
         <Route path="/forex" element={<ForexPage/>}/>
         <Route path="/commodities" element={<CommoditiesTrading/>}/>
         <Route path="/sharecfd" element={<ShareCfd/>}/>
-        <Route path="bondcfd" element={<BondCfd/>}/>
+        <Route path="/bondcfd" element={<BondCfd/>}/>
+        <Route path="/metals" element={<MetalsTrading/>}/>
+        <Route path="/indices" element={<IndicesTrading/>}/>
+        <Route path="/execution" element={<ExecutionPolicy/>}/>
         <Route path="/body" element={<Body />} />
       </Routes>
       <Footer />

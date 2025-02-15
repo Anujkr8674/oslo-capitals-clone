@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
        
 
-        <div className="insurance">
+        <div id="insurance1" className="insurance">
           <div className="insurance-box">
             <img src="/images/log.jpg" alt="Insurance Logo" />
             <p>

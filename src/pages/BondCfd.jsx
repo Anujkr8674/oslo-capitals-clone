@@ -3,14 +3,15 @@ import "../style/BondCfd.css";
 
 const BondCfd = () => {
   return (
-    <div className="cfd-container">
-      <header className="cfd-header">
+    <div className="bond-container">
+      <header className="bond-header">
         <h1>Bonds CFDs Trading</h1>
         <p>
+          <b>
         Bond trading is when bond investors and traders are allowed to buy or
         <br/>sell corporate bonds and government bonds in the bond market. Trade
         <br/>Bond CFDs such as US 10 YR T-Note Futures (US10YR) & UK Long Gilt
-        <br/>Futures (GILT) on Metatrader 4 and 5.
+        <br/>Futures (GILT) on Metatrader 4 and 5.</b>
         </p>
       </header>
 
@@ -76,6 +77,24 @@ const BondCfd = () => {
         <p>Yet, risks are always present when trading, whatever the type of investment. Bond prices can be negatively affected when governments and corporations issue new bonds or risk default events. Traders can also use Bonds trading to pick up bond yields by trading volatility (spread betting strategy) or seize any potential bond price increase from a credit upgrade. Bond CFDs offer traders the possibility to re-sell bonds when interest rates are increasing without the need to hold onto them until the maturity date.</p>
         
          </section>
+
+         <div className="example">
+          <h1>An Example of Bonds CFD Trading</h1>
+          <p>Suppose you want to trade CFDs, where the underlying asset is the US10YR, known as ‘’US 10yr T-Note” Let us suppose that the US10YR is trading at BID 130.62 ASK 131.76</p>
+         </div>
+
+         <div className="profitloss">
+          <div className="profit">
+          <p>You decide to buy 100 contracts of US10YR because you think that the US10YR price will rise in the future. Your margin rate is 1%. This means that you need to deposit 1% of the total position value into your margin account.</p><br/>
+            <img src="/images/redbonds.png" alt="loss"/>
+           
+          </div>
+
+          <div className="loss">
+            <p>In the next hour, if the bond price moves to 132.3/133.2, you have a winning trade. You could close your position by selling at the current (bid) price of US10YR, which is 132.3.</p><br/>
+            <img src="/images/greenbonds.png" alt="loss"/>
+          </div>
+         </div>
 
 
         <div id="bond11">

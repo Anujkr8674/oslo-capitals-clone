@@ -1,8 +1,4 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  } */
+
   .cfd-header   {
     position: relative;
     background-image: url("../image/bgcfd.png");
@@ -28,15 +24,21 @@
     z-index: 1;
   }
 
-  .cfd-header h1,p   {
-    color: #fff;
+  .cfd-header h1, p   {
+   
+    /* color: black; */
     text-align: left;
     position: relative;
     z-index: 2;
   }
 
+  /* #cfd  {
+    color: #fff;
+  } */
+
   .cfd-header p {
     font-size: 21px;
+    color: #fff;
   }
 
   #grid1    {

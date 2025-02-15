@@ -40,7 +40,7 @@
 }
   
 
-  .forex-grid {
+  .comm-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -61,14 +61,14 @@
   }
 
 
-  .forex-reasons {
+  .comm-reasons {
     text-align: center;
     padding: 40px;
     background-color: transparent;
     background-image: linear-gradient(180deg, #FFFFFF 0%, #F4FADA 100%);
   }
   
-  .forex-grid {
+  .comm-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns on large screens */
     gap: 20px;
@@ -83,7 +83,7 @@
   }
 
 
-  .forex-what-is {
+  .comm-what-is {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Vertical center */
@@ -95,24 +95,24 @@
     padding: 20px; /* Extra padding for better spacing */
   }
   
-  .forex-what-is h2 {
+  .comm-what-is h2 {
     margin-bottom: 10px; /* Space between h2 and p */
   }
   
-  .forex-what-is p {
+  .comm-what-is p {
     max-width: 80%; /* To prevent text from stretching too wide */
     line-height: 1.5; /* Improves readability */
   }
 
   
-  .forex-best-platform {
+  .comm-best-platform {
     padding: 40px;
     
     color: white;
 
   }
   
-  .content {
+  .content1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,28 +120,28 @@
     margin: 0 auto;
   }
   
-  .text-content {
+  .text-content1 {
     width: 50%;
   }
   
-  .forex-best-platform h2 {
+  .comm-best-platform h2 {
     font-size: 2rem;
     color: #333;
     text-align: center;
   }
   
-  .text-content p {
+  .text-content1 p {
     font-size: 1 rem;
     color: #666;
     margin-bottom: 20px;
   }
   
-  .text-content ul {
+  .text-content1 ul {
     /* list-style: none; */
     padding: 0;
   }
   
-  .text-content li {
+  .text-content1 li {
     font-size: 1rem;
     margin: 10px 0;
     color: #444;
@@ -188,7 +188,7 @@
   padding: 10%;
 }
 
-  .forex-card {
+  .comm-card {
     background-color: #000a44; /* Dark blue background */
     color: white;
     padding: 20px;
@@ -198,7 +198,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  .forex-table {
+  .comm-table {
     /* width: 100%; */
     border-collapse: collapse;
     margin-top: 20px;
@@ -207,7 +207,7 @@
     padding-left: 20%;
   }
   
-  .forex-table th, .forex-table td {
+  .comm-table th, .comm-table td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
@@ -339,12 +339,12 @@
    .Commodities-hero {
       padding: 30px;
     }
-    .forex-table th, .forex-table td {
+    .comm-table th, .comm-table td {
       font-size: 14px;
       padding: 8px;
     }
 
-    .forex-why-trade {
+    .comm-why-trade {
       flex-direction: column;
       text-align: center;
     }
@@ -360,21 +360,21 @@
       display: block;
     }
 
-    .forex-grid {
+    .comm-grid {
       grid-template-columns: 1fr; /* 1 column for mobile */
     }
 
-    .content {
+    .content1 {
       flex-direction: column;
       text-align: center;
     }
   
-    .text-content, .image-container {
+    .text-content1, .image-container {
       width: 100%;
       text-align: left;
     }
 
-    .forex-best-platform h2 {
+    .comm-best-platform h2 {
      
       font-family: "Inter", Sans-serif;
       font-size: 32px;
@@ -417,7 +417,7 @@
    .Commodities-hero {
       padding: 20px;
     }
-    .forex-table th, .forex-table td {
+    .comm-table th, .comm-table td {
       font-size: 12px;
       padding: 6px;
     }
@@ -429,7 +429,7 @@
   
 
 
-  .forex-spreads {
+  .comm-spreads {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
@@ -437,7 +437,7 @@
     background: #fff;
   }
   
-  .forex-spreads h2 {
+  .comm-spreads h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
   }
@@ -446,46 +446,55 @@
     overflow-x: auto;
   }
   
-  .forex-table {
+  .comm-table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #ddd;
     font-size: 1rem;
   }
   
-  .forex-table th, .forex-table td {
+  .comm-table th, .comm-table td {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
   }
   
-  .forex-table th {
+  .comm-table th {
     background-color: #f4f4f4;
     font-weight: bold;
   }
   
-  .forex-table tr:nth-child(even) {
+  .comm-table tr:nth-child(even) {
     background-color: #f9f9f9;
   }
   
   @media (max-width: 768px) {
-    .forex-table {
+    .comm-table {
       font-size: 0.9rem;
     }
   
-    .forex-table th, .forex-table td {
+    .comm-table th, .comm-table td {
       padding: 8px;
     }
   }
   
   @media (max-width: 480px) {
-    .forex-table th, .forex-table td {
+    .comm-table th, .comm-table td {
       padding: 6px;
       font-size: 0.8rem;
     }
   
-    .forex-spreads h2 {
+    .comm-spreads h2 {
       font-size: 1.5rem;
     }
   }
   
+
+  #clrblackk  {
+    color: #444;
+  }
+
+
+  #commtext p{
+    color: #333;
+  }

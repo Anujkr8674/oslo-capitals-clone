@@ -1,0 +1,368 @@
+
+.metals-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .metals-header {
+    /* text-align: center;
+    background: #f5f5f5;
+    padding: 20px; */
+
+    position: relative;
+    background-image: url("../image/metalsbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: auto;
+    width: -webkit-fill-available;
+    max-height: 800px;
+  }
+
+
+
+  .metals-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+  .metals-header * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.metals-header p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.metals-header h1  {
+    font-size: 55px;
+  }
+  
+  .metals-intro,
+  .metals-platform,
+  .metals-trading-info,
+  .metals-leverage,
+  .metals-spreads,
+  .metals-factors,
+  .metals-benefits {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .metals-example-box {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .metals-spreads table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .metals-spreads th, .metals-spreads td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .metalcontent {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 5%;
+  }
+
+  .TradeMetals  {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+  }
+
+  .factors  {
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    color: #fff;
+    background-color: #1F093B;
+  }
+
+  .BenifitsMetals   {
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .factors h1   {
+    text-align: center;
+  }
+
+  #metal    {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .metaltext p   {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .metals-container {
+      padding: 10px;
+    }
+
+    #metal p {
+        text-align: left;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .metaltext p   {
+        text-align: left;
+        padding: 5%;
+      }
+
+      .metalimage img   {
+        width: 80%;
+      }
+
+    .image-container img    {
+        width: 80%;
+    }
+
+    .metalcontent   {
+        display: block;
+        padding-left: 2%;
+        padding-right: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .metals-header h1 {
+      font-size: 24px;
+    }
+
+    .TradeMetals    {
+        display: block;
+        padding-left: 2%;
+        padding-right: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
+  
+  .metals-best-platform {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    width: 50%;
+  }
+  
+  .metals-best-platform h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .text-content p {
+    font-size: 1 rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .text-content ul {
+    /* list-style: none; */
+    padding: 0;
+  }
+  
+  .text-content li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .image-container {
+    width: 45%;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+
+ 
+
+
+
+  
+
+
+
+
+   .metals-why-trade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.578);
+  }
+  
+  .text1, .text2 {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .text2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .text2 ul li i {
+    color: green;
+  }
+  
+  #metals {
+    text-align: center;
+    font-weight: 800;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .metals-hero {
+      padding: 30px;
+    }
+    .metals-table th, .metals-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    .metals-why-trade {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .text1, .text2 {
+      max-width: 90%;
+      text-align: left;
+    }
+  
+    .text2 ul li {
+      justify-content: center;
+    }
+
+    .metals-grid {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+
+    .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-content, .image-container {
+      width: 100%;
+      text-align: left;
+    }
+
+    .metals-best-platform h2 {
+      color: var(--e-global-color-6505854);
+      font-family: "Inter", Sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2em
+    }
+
+    #trade1  {
+      text-align: left;
+      color: var(--e-global-color-6505854);
+      font-family: "Inter", Sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2em;
+    }
+
+    #broker {
+      align-items: center;
+      padding-left: 1%;
+      padding-right: 1%;
+      background-color: #fff;
+      /* margin-top: -100px; */
+      height: -webkit-fill-available;
+    }
+
+  }
+  
+
+  
+
+ 

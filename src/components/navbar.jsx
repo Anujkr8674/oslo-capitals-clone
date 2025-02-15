@@ -152,8 +152,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <li><Link to="/commodities"><i class="fa-solid fa-arrow-trend-up"></i> Commodities</Link></li>
           <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Share CFDs</Link></li>
           <li><Link to ="/bondcfd"><i class="fa-solid fa-arrow-trend-up"></i> Bonds CFDs</Link></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Metal</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Indices</a></li>
+          <li><Link to="/metals"><i class="fa-solid fa-arrow-trend-up"></i> Metal</Link></li>
+          <li><Link to="/indices"><i class="fa-solid fa-arrow-trend-up"></i> Indices</Link></li>
          
         </div>
 
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div className="conditions">
         <h3 className="head"><b> CONDITIONS</b></h3>
-        <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Execution Policy</a></li>
+        <li><Link to="/execution"><i class="fa-solid fa-arrow-trend-up"></i> Execution Policy</Link></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Spreads</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Swaps</a></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Margin and Leverage</a></li>

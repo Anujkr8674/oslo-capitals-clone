@@ -127,14 +127,6 @@ const ForexPage = () => {
         <h2>What is Forex Trading?</h2>
         <p>Forex trading involves buying one currency and selling another simultaneously. Through careful analysis, traders predict the potential direction of currency prices and attempt to capture gains based on price fluctuations. There is no centralised exchange for forex trading. Rather, it takes place electronically or online, between networks of global computers. The market is open 24 hours a day, 5 days a week.</p>
       </section>
-
-      {/* Best Platform Section */}
-      {/* <section className="forex-best-platform">
-        <h2>What is the Best Platform to Trade Forex?</h2>
-        <p>Find the best trading platform that suits your needs.</p>
-      </section> */}
-
-
       <section className="forex-best-platform">
       <h2>What is the Best Platform to Trade Forex?</h2>
         <div className="content">
@@ -214,7 +206,7 @@ const ForexPage = () => {
 
           <div className="image-container">
             {/* <img src="/images/forex4.png" alt="Trading Platform" /> */}
-            <p>Now, in the next hour, if the price moves to 0.6880/0.6882, you have a winning trade. You could close your position by selling at the current price of AUD 0.6880.</p>
+            <p id="clrblackk">Now, in the next hour, if the price moves to 0.6880/0.6882, you have a winning trade. You could close your position by selling at the current price of AUD 0.6880.</p>
           </div> 
         </div>
       </section>

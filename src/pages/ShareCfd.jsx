@@ -6,7 +6,7 @@ const ShareCfd = () => {
     <div className="cfd-container">
       <header className="cfd-header">
         <h1>Forex Trading</h1>
-        <p>
+        <p id="cfd">
              Forex trading, also known as Foreign Exchange, currency trading or FX<br/>
             is a global market for trading one currency for another one from a<br/>
             different country. Extrede offers over 60+ Forex currency pairs.<br/>
@@ -15,13 +15,7 @@ const ShareCfd = () => {
         </p>
       </header>
       
-      {/* <section className="cfd-why-trade">
-        <h2>Why Trade Share CFDs with Extrede ?</h2>
-        <p>
-          Oslo Capitals offers among the best trading environments for CFD
-          trading in more than 10,000 Australian and international share CFDs.
-        </p>
-      </section> */}
+     
 
 
       <section className="forex-best-platform">

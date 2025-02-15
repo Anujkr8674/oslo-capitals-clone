@@ -1,5 +1,5 @@
 import React from "react";
-// import "./VipAccountWithdraw.css";
+
 import "../style/VipAccountWithdraw.css"
 
 const VipAccountWithdraw = () => {

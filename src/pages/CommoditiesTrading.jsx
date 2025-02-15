@@ -88,14 +88,14 @@ const CommoditiesTrading = () => {
 
 
 
-    <section className="forex-best-platform">
+    <section className="comm-best-platform">
       <h2 >What Makes a Good<br/>
              Trading Commodity?</h2>
-        <div className="content">
+        <div className="content1">
             <div className="image-container">
                 <img src="/images/comdity1.png" alt="Trading Platform" />
             </div>
-          <div className="text-content">
+          <div className="text-content1">
             
             <p >When trading commodities, liquidity is the primary thing you should consider. This is because liquidity determines the ease with which you can sell or buy a commodity. A liquid market is generally associated with relatively lower risk as there will likely be someone willing to take the other side of a trading position. A good commodity will usually have a well-established market of buyers and sellers at any given time.</p>
             <br/><br/>
@@ -108,10 +108,10 @@ const CommoditiesTrading = () => {
       <br/><br/>
 
 
-      <section  id="good11" className="forex-best-platform">
+      <section  id="good11" className="comm-best-platform">
       <h2 id="good">What is the Best Platform to Trade Forex?</h2>
-        <div className="content">
-          <div id="good" className="text-content">
+        <div className="content1">
+          <div id="good" className="text-content1">
             
             <p  id="good">Discover the benefits of Forex trading on one of the most powerful trading platforms available, extrede 5 (extrede 5). Available across desktop and mobile platforms, the MetaTrader 5 platform is ready when you are.</p>
             <ul >
@@ -140,49 +140,49 @@ const CommoditiesTrading = () => {
 
 
       {/* 6 Reasons Section */}
-      <section className="forex-reasons">
+      <section className="comm-reasons">
         <h2>6 Reasons to Choose extrede   </h2>
         <h4>A Global Forex Broker</h4>
 
-        <div className="forex-grid">
+        <div className="comm-grid">
 
-          <div className="forex-card">
+          <div className="comm-card">
           <span className="icon">⚖️</span>
             <h2>Global Regulated Broker</h2>
-            <p>Boost your trading experience with a licensed and fully regulated Global forex broker, with multiple awards to their name.</p>
+            <p>Boost your trading experience with a licensed and fully regulated Global comm broker, with multiple awards to their name.</p>
           </div>
 
-          <div className="forex-card">
+          <div className="comm-card">
           <span className="icon">📱</span>
             <h2>Trading Platforms</h2>
-            <p>Give your forex trading an edge with robust, feature-rich and easy-to-use MetaTrader 4, MetaTrader 5 and Iress.</p>
+            <p>Give your comm trading an edge with robust, feature-rich and easy-to-use MetaTrader 4, MetaTrader 5 and Iress.</p>
           </div>
 
 
 
-          <div className="forex-card">
+          <div className="comm-card">
           <span className="icon">⚡</span>
             <h2>Low Latency Execution</h2>
             <p>Get all the available market prices and tight spreads, with ultra-low latency execution and minimal slippage.
             </p>
           </div>
-          <div className="forex-card">
+          <div className="comm-card">
           <span className="icon">📈</span>
             <h2>Forex Trading Leverage</h2>
-            <p>Leverage of up to 500:1 in over 50 currency pairs and widen your exposure to the global forex markets</p>
+            <p>Leverage of up to 500:1 in over 50 currency pairs and widen your exposure to the global comm markets</p>
           </div>
         </div>
           
       </section>
 
 
-      <section className="forex-best-platform">
+      <section className="comm-best-platform">
       <h2>What is Commodities Trading?</h2>
-        <div className="content">
+        <div className="content1">
             <div className="image-container">
                 <img src="/images/comdity2.png" alt="Trading Platform" />
             </div>
-          <div className="text-content">
+          <div className="text-content1">
             
             <p>Commodities trading represents the buying and selling of quantity sets of homogeneous and near-homogeneous assets. Popular commodities include the West Texas Intermediate (WTI), Brent Crude Oil (XTI), Gold (XAU) and other precious metals, and soft commodities such as Wheat, Coffee, Cocoa, Soya etc. Price movements in commodities are relatively slow and are usually seen as bellwethers and market indicators for the overall health of the industry that produces and consumes them.</p>
             <br/><br/>
@@ -193,11 +193,11 @@ const CommoditiesTrading = () => {
        </section>
        <br/><br/><br/>
 
-       <section id="broker" className="forex-best-platform">
+       <section id="broker" className="comm-best-platform">
         <h2 id="trade">Forex Trading Example</h2>
-        <div className="content">
+        <div className="content1">
 
-          <div className="text-content">
+          <div className="text-content1">
             <h3>Example of Leveraged
             CFD Commodities Trading</h3><br/>
             {/* <p>Where the underlying asset is the AUD/USD currency pair, also known as the “Aussie.” Let us suppose that the AUD/USD pair is trading at:</p> */}
@@ -212,11 +212,11 @@ const CommoditiesTrading = () => {
 
       <br/><br/><br/><br/><br/><br/>
 
-      <section id="red" className="forex-best-platform">
+      <section id="red" className="comm-best-platform">
         
-        <div className="content">
+        <div className="content1">
 
-          <div className="text-content">
+          <div className="text-content1">
             <p>You decide to buy 2,000 barrels of XTIUSD because you think that the XTIUSD price will rise in the future. Your margin rate is 1%. This means that you need to deposit 1% of the total position value into your margin account.</p>
             <br/>
             <div className="image-container">
@@ -225,7 +225,7 @@ const CommoditiesTrading = () => {
           </div>
 
           <div className="image-container">
-           <p>Now, in the next hour, if the price moves to 83.10/83.11, you have a winning trade. You could close your position by selling at the current price of USD 83.10</p>
+           <p id="clrblackk">Now, in the next hour, if the price moves to 83.10/83.11, you have a winning trade. You could close your position by selling at the current price of USD 83.10</p>
            <br/>
            <div className="image-container">
             <img src="/images/comdity4.png" alt="Trading Platform" />
@@ -238,11 +238,11 @@ const CommoditiesTrading = () => {
       <br/><br/><br/><br/><br/><br/>
 
 
-      <section id="broker" className="forex-best-platform">
+      <section id="broker" className="comm-best-platform">
         
-        <div className="content">
+        <div className="content1">
 
-          <div className="text-content">
+          <div className="text-content1">
             <p>In this case, the price of crude oil moved in your favor. But, had the price declined instead, moving against your prediction, you could have made a loss. If that loss reduced your free equity to negative, your broker would have issued a margin call and will close all your trades if the equity falls at 50% of 1660.</p>
           </div>
 
@@ -286,7 +286,7 @@ const CommoditiesTrading = () => {
 
           <div className="commodities-text2">
             <h2>Oil Markets</h2>
-            <p>Crude oil is a liquid in the Earth, and it is made of hydrocarbons, organic compounds, and tiny amounts of metal. There are many types of crude produced around the world, and the quality of each is reflected in the value. One of its quality characteristics is the sulfur content, which can be defined as sweet or sour, and density ranges from heavy to light. If crudes are light and sweet, there are more expensive as opposed to energy products such as diesel and gasoline. There is a high demand for these grades since they can be processed with refineries requiring less energy.</p><br/><br/>
+            <p>Crude oil is a liquid in the Earth, and it is made of hydrocarbons, organic compounds, and tiny amounts of metal. There are many types of crude produced around the world, and the quality of each is reflected in the value. One of its quality characteristics is the sulfur content1, which can be defined as sweet or sour, and density ranges from heavy to light. If crudes are light and sweet, there are more expensive as opposed to energy products such as diesel and gasoline. There is a high demand for these grades since they can be processed with refineries requiring less energy.</p><br/><br/>
             <p>Many types of crude oil differ in their consistency and density, depending on how and where it is extracted. There are over 160 types of crude oil traded on the market, but Brent Crude and WTI serve the most as the oil benchmarks in the global markets. The WTI oil is taken from Wells in the United States and sent to Oklahoma by pipeline. It is mostly referred to as US crude, and it has expensive shipping costs when there is demand around the world. The WTI oil is very sweet and light, making it ideal for gasoline refining. WTI is a higher quality crude than Brent, and it is always priced at a premium.</p><br/><br/>
             <p>The Organization of the Petroleum Exporting Countries (OPEC) is a cartel of 14 major oil-producing nations seeking to manage the supply of the commodity to control its prices. When there is a meeting on whether to boost or cut production, it can impact current and future prices directly, and oil watchers globally closely follow the announcements. Another important factor affecting the prices is the major crude reports from the US inventory number as higher inventories will mean less demand from the international markets and will pressure the prices lower. Political factors or wars in oil-producing nations are a major issue in the oil markets and natural disasters such as hurricanes that affect major oil infrastructures.</p><br/><br/>
             <h2>Coffee Markets</h2>
@@ -301,14 +301,14 @@ const CommoditiesTrading = () => {
       <h2 id="Commodities">Types of Commodities</h2>
       <section  id="strong"className="commodities-why-trade">
         
-        <div className="commodities-text1">
+        <div id="commtext" className="commodities-text1">
             <p>Commodities are raw materials or agricultural outputs that appear naturally, and are used in the production of other goods. They are recognised as the building blocks of the global economy and play a significant role in financial markets</p><br/><br/>
             <p><strong>There are two types of commodities</strong></p>
             <p> <strong>Hard commodities:</strong>  Refers to natural resources that are mined or extracted</p><br/>
             <p>  <strong>Soft commodities:</strong> Agricultural products or livestock</p>
         </div>
 
-        <div className="commodities-text2">
+        <div id="commtext" className="commodities-text2">
          <p>For the purposes of trading, Commodities are further classified into four main categories:</p><br/><br/>
          <p> <strong> Metals:</strong> Includes precious metals such as gold, silver, platinum, palladium and copper</p><br/>
          <p> <strong>Energy:</strong> Crude oil and natural gas are the main energy products that are traded. Heating oil, gasoline and electricity are among others</p><br/>
@@ -341,7 +341,7 @@ const CommoditiesTrading = () => {
 <br/><br/><br/><br/><br/><br/>
 
       {/* What is Forex Trading */}
-      <section id="trade11" className="forex-what-is">
+      <section id="trade11" className="comm-what-is">
         <h2>How to Trade Commodities?</h2>
         {/* <br/> */}
         <p>

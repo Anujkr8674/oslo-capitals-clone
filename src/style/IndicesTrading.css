@@ -1,0 +1,607 @@
+/* General Styles */
+.indices-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Hero Section */
+  .indices-hero {
+    position: relative;
+    background-image: url("../image/bgcfd.png");
+    /* background-image: url("../image/forexbg.png"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 400px;
+    width: -webkit-fill-available;
+    justify-content: center;
+  }
+
+
+  
+  .indices-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+  
+  .indices-hero h1 {
+    font-size: 2.5em;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding-top: 100px;
+    font-weight: 800;
+  }
+  
+  .indices-hero p {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  /* Sections Styling */
+  .indices-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Reasons to Choose Oslo Capitals */
+  .indices-reasons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .indices-reason-box {
+    background: #001f3f;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  /* Index Trading Explanation */
+  .indices-explanation {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: justify;
+    padding-top: 8%;
+  }
+  
+  .indices-explanation h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Example of Indices CFD Trading */
+  .indices-cfd-example {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #fff;
+  }
+  
+  .indices-cfd-box {
+    background: #ff4d4d;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .indices-cfd-box.green {
+    background: #4caf50;
+  }
+  
+  /* Benefits Section */
+  .indices-benefits {
+    background: #e8ebe7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+
+  
+  /* Dividends Adjustments */
+  .indices-dividends {
+    padding: 0 15% 0 15%;
+    text-align: justify;
+    align-items: center;
+    
+  }
+  
+  .indices-dividends h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  /* Most Traded Indices */
+  .indices-most-traded {
+    background: #000;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .indices-most-traded h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Identifying Market Movers */
+  .indices-market-movers {
+    padding: 40px 20px;
+    text-align: justify;
+    background-color: #e8ebe7;
+  }
+  
+  .indices-market-movers h2 {
+    text-align: center;
+  }
+
+  .indices-market-movers p{
+    text-align: center;
+  }
+  
+  /* Why Trade Indices */
+  .indices-why-trade {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* How to Trade Indices */
+  .indices-how-trade {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+
+  .indices-how-trade p{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 25% 0% 25%;
+  }
+
+
+
+  .indicestext  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+
+
+  .indices-trade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.578);
+  }
+  
+
+  indices-text1, indices-text2 {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  indices-text2 ul {
+    /* list-style: none; */
+    padding: 0;
+  }
+  
+  indices-text2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  #indices  {
+    display: flex;
+  }
+
+
+  .indicestrading    {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 40px;
+    padding-top: 1%;
+    padding-bottom: 8%;
+ }
+
+
+
+ .inditext {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 8%;
+    position: relative;
+}
+
+    .inditext::before {
+        content: "";
+        position: absolute;
+        left: 14.5%; /* Adjusting line position according to padding-left */
+        top: 0;
+        width: 3px; /* Line thickness */
+        height: 100%;
+        background-color: black; /* Line color */
+    }
+
+    .indi-benifits  {
+        display: flex;
+        text-align: left;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        gap: 40px;
+    }
+
+    .indi-benifits p    {
+        font-size: 15px;
+    }
+ 
+    .stock-indices-calculation {
+        /* background-color: #121212; */
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #060606 0%, #525252 100%);
+        opacity: 0.81;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+      }
+      
+      .stock-indices-calculation h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+      
+      .stock-indices-calculation p {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      
+      .method-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+      
+      .method-card {
+        /* background: linear-gradient(to bottom, #303030, #1f1f1f); */
+        border-radius: 10px;
+        /* padding: 20px; */
+        width: 30%;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+
+        background-color: transparent;
+        padding: 5px 5px 26px 5px;
+        background-image: linear-gradient(174deg, #0A0A0A26 0%, #120B8F42 100%);
+      }
+      
+      .method-card h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      .method-card p {
+        font-size: 12px;
+        line-height: 1.6;
+      }
+      
+      .method-card:hover {
+        background: #4b4b4b;
+        transform: translateY(-5px);
+      }
+      
+
+
+
+
+      .unique-indices-section {
+        text-align: center;
+        background-color: #f7f7f7;
+        padding: 40px 20px;
+      }
+      
+      #unique-indices-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2d2d2d;
+      }
+      
+      #unique-indices-description {
+        font-size: 1.2rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0 auto 30px;
+      }
+      
+      .unique-indices-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .unique-index-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 15%;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      
+      .unique-index-card:hover {
+        transform: translateY(-5px);
+      }
+      
+      .unique-index-logo {
+        width: 80px;
+        margin-bottom: 10px;
+      }
+      
+      .unique-index-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      .unique-sp500 {
+        color: red;
+      }
+      
+      .unique-index-text {
+        font-size: 11PX;
+        line-height: 1.6;
+        color: #333;
+      }
+      
+
+      .indices-markets  {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0% 15% 0% 15%;
+        text-align: left;
+        gap: 40px;
+      }
+
+      .indices-markets1 p, .indices-markets2 p{
+        text-align: left;
+        font-size: 11px;
+      }
+     
+
+      .indices-trade11    {
+        display: flex;
+        text-align: left;
+        align-items: baseline;
+        justify-content: center;
+        padding: 0% 15% 0% 15%;
+        gap: 40px;
+        font-size: 11px;
+        
+      }
+      
+      
+    
+      
+
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .indices-hero h1 {
+      font-size: 2.2em;
+    }
+    .indices-hero p {
+      font-size: 1.1em;
+    }
+    .indices-reason-box {
+      width: 45%;
+    }
+
+    .unique-indices-container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .unique-index-card {
+        width: 45%;
+        margin-bottom: 20px;
+      }
+  }
+  
+  @media (max-width: 768px) {
+    .indices-reasons-grid,
+    .indices-cfd-example {
+      flex-direction: column;
+      align-items: center;
+    }
+    .indices-hero h1 {
+      font-size: 2em;
+    }
+
+
+
+    .indices-hero p {
+      font-size: 1em;
+    }
+    .indices-reason-box {
+      width: 100%;
+    }
+    .indices-cfd-box {
+      max-width: 100%;
+    }
+
+
+    .indices-trade {
+        flex-direction: column;
+        text-align: center;
+      }
+
+
+      .indice-trade {
+        flex-direction: column;
+        text-align: center;
+      }
+
+
+      .indicestext1, .indicestext2 {
+        flex: 1;
+        max-width: 500px;
+      }
+
+
+      .text1, .indicestext2 {
+        max-width: 90%;
+        text-align: left;
+      }
+    
+      .indicestext2 ul li {
+        justify-content: center;
+      }
+
+      .indicestrading {
+        display: block;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: left;
+      }
+
+
+      
+      .method-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .method-card {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .unique-index-card {
+        width: 80%;
+      }
+
+      .indi-benifits,.indices-markets, .indices-trade11   {
+        display: block;
+      }
+      .indices-how-trade p  {
+        padding: 0;
+      }
+
+      .indices-hero {
+        height: max-content;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .indicestrading {
+        display: block;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: left;
+      }
+    .indices-hero {
+      padding: 60px 15px;
+    }
+    .indices-hero h1 {
+      font-size: 1.8em;
+    }
+    .indices-hero p {
+      font-size: 0.9em;
+    }
+    .indices-reason-box {
+      padding: 15px;
+    }
+    .indices-explanation h2,
+    .indices-dividends h2,
+    .indices-most-traded h2,
+    .indices-market-movers h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+
+
+  .indice-trade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.578);
+  }
+
+
+  .indicestext1, .indicestext2 {
+    flex: 1;
+    max-width: 500px;
+  }
+
+
+
+   .indicestext2 {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .indicestext2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .indicestext2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  

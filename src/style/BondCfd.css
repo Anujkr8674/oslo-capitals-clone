@@ -1,5 +1,51 @@
+.bond-header   {
+    position: relative;
+    background-image: url("../image/bgcfd.png");
+    /* background-image: url("../image/forexbg.png"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: auto;
+    width: -webkit-fill-available;
+  }
+  
+
+
+  .bond-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+  .bond-header h1   {
+    color: #fff;
+    /* color: black; */
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+
+  .bond-header p {
+    font-size: 21px;
+    /* color: black; */
+  }
+
+
+  .bond-header {
+    text-align: center;
+    padding: 40px 20px;
+  }
 #bondp  {
-    color: black;
+    color: white;
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
@@ -24,4 +70,71 @@
 
 #bond12 {
     text-align: left;
+}
+
+.example    {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+}
+
+.example p{
+    color: black;
+}
+
+.example h1 {
+    text-align: left;
+}
+
+.profitloss {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin: 60px;
+}
+
+@media (max-width: 768px) {
+
+    .bond-header p{
+        width: 270px;
+        font-size: 15px;
+    } 
+
+    .profitloss {
+        display: block;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 5px;
+
+    }
+
+    .profit p  {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 15px;
+    }
+
+    .loss p  {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .profit img, .loss img {
+        width: 70%;
+        padding-left: 17%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .bond-header{
+      padding: 20px 10px;
+    }
 }
