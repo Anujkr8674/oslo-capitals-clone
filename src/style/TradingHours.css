@@ -1,0 +1,144 @@
+/* Trading Hours Styles */
+.trading-hours-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+
+
+
+  
+  .trading-hours-header {
+    position: relative;
+    background-image: url("../image/hourbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 350px;
+    width: -webkit-fill-available;
+  }
+  
+
+
+  
+  .trading-hours-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+  .trading-hours-header * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.trading-hours-header h1 {
+font-size: 32px;
+padding-top: 150px;
+padding-left: 11%;
+}
+
+ 
+  
+  .trading-hours-section {
+    margin-bottom: 30px;
+  }
+  
+  .trading-hours-section h2 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .trading-hours-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  .trading-hours-list {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .trading-hours-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .trading-hours-section ul li{
+    padding-left: 13%;
+    list-style: none;
+    padding-right: 15%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .trading-hours-container {
+      padding: 15px;
+    }
+  
+    .trading-hours-header {
+      font-size: 1.8rem;
+    }
+  
+    .trading-hours-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .trading-hours-section p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .trading-hours-icons {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .trading-hours-header {
+      font-size: 1.6rem;
+    }
+  
+    .trading-hours-section h2 {
+      font-size: 1.3rem;
+    }
+  
+    .trading-hours-section p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trading-hours-header {
+      font-size: 1.4rem;
+    }
+  
+    .trading-hours-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .trading-hours-section p {
+      font-size: 0.85rem;
+    }
+  }
+  

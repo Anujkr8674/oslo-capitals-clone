@@ -1,0 +1,89 @@
+.overnight-container {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 20px;
+  }
+  
+
+
+
+
+    
+  .overnight-header {
+    position: relative;
+    background-image: url("../image/hourbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 350px;
+    width: -webkit-fill-available;
+  }
+  
+
+
+  
+  .overnight-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+  .overnight-header * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.overnight-header h1 {
+font-size: 32px;
+padding-top: 150px;
+padding-left: 11%;
+}
+
+
+.overnight-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.overnight-text h2{
+    font-size: 30px;
+}
+
+
+
+  #overnight-rollover {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  @media (max-width: 768px) {
+    .overnight-features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .overnight-content {
+      padding: 15px;
+    }
+  
+    .overnight-header {
+      font-size: 1.5rem;
+    }
+  }
+  

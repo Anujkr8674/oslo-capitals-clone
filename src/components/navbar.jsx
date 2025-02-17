@@ -162,11 +162,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div className="conditions">
         <h3 className="head"><b> CONDITIONS</b></h3>
         <li><Link to="/execution"><i class="fa-solid fa-arrow-trend-up"></i> Execution Policy</Link></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Spreads</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Swaps</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Margin and Leverage</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Overnight Positions</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Trading Hours</a></li>
+          <li><Link to="/spreads"><i class="fa-solid fa-arrow-trend-up"></i> Spreads</Link></li>
+          <li><Link to="/swap"><i class="fa-solid fa-arrow-trend-up"></i> Swaps</Link></li>
+          <li><Link to="/margin-and-leverage"><i class="fa-solid fa-arrow-trend-up"></i> Margin and Leverage</Link></li>
+          <li><Link to="/over-night"><i class="fa-solid fa-arrow-trend-up"></i> Overnight Positions</Link></li>
+          <li><Link to="/trading-hours"><i class="fa-solid fa-arrow-trend-up"></i> Trading Hours</Link></li>
          
         </div>
 

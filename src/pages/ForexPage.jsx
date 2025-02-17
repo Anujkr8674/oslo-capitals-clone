@@ -127,6 +127,7 @@ const ForexPage = () => {
         <h2>What is Forex Trading?</h2>
         <p>Forex trading involves buying one currency and selling another simultaneously. Through careful analysis, traders predict the potential direction of currency prices and attempt to capture gains based on price fluctuations. There is no centralised exchange for forex trading. Rather, it takes place electronically or online, between networks of global computers. The market is open 24 hours a day, 5 days a week.</p>
       </section>
+      
       <section className="forex-best-platform">
       <h2>What is the Best Platform to Trade Forex?</h2>
         <div className="content">
@@ -216,34 +217,7 @@ const ForexPage = () => {
         <p>In this case, the price moved in your favour. But, had the price declined instead, moving against your prediction, you could have made a loss. If that loss was higher than AUD 14.94 AUD, your broker would have issued a margin stop out.</p>
       </div>
 
-      {/* <section className="forex-spreads">
-        
-        <table className="forex-table">
-          <thead>
-            <tr>
-              <th>If the price of AUD/USD</th>
-              <th>To</th>
-              <th>You could Gain or Lose for a Long Position</th>
-              <th>Resulting in a Return of the Initial Margin</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Rises by 1%</td>
-              <td>0.7541/0.7542</td>
-              <td>AUD 1980</td>
-              <td>6630%</td>
-            </tr>
-            <tr>
-              <td>Declines by 1%</td>
-              <td>	0.7392/0.7393	</td>
-              <td>AUD -2020</td>
-              <td>-6764%</td>
-            </tr>
-          </tbody>
-        </table>
-      </section> */}
-
+      
 
 
     <section className="forex-spreads">

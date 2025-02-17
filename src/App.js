@@ -22,6 +22,12 @@ import BondCfd from "./pages/BondCfd";
 import MetalsTrading from "./pages/MetalsTrading";
 import IndicesTrading from "./pages/IndicesTrading";
 import ExecutionPolicy from "./pages/ExecutionPolicy";
+import Spreads from "./pages/Spreads";
+import SwapRates from "./pages/SwapRates";
+import OverNight from "./pages/OverNight";
+import TradingHours from "./pages/TradingHours";
+import MarginPage from "./pages/MarginPage";
+
 
 function App() {
   return (
@@ -47,6 +53,12 @@ function App() {
         <Route path="/metals" element={<MetalsTrading/>}/>
         <Route path="/indices" element={<IndicesTrading/>}/>
         <Route path="/execution" element={<ExecutionPolicy/>}/>
+        <Route path="/spreads" element={<Spreads/>}/>
+        <Route path="/swap" element={<SwapRates/>}/>
+        <Route path="/over-night" element={<OverNight/>}/>
+        <Route path="/trading-hours" element={<TradingHours/>}/>
+        <Route path="/margin-and-leverage" element={<MarginPage/>}/>
+        
         <Route path="/body" element={<Body />} />
       </Routes>
       <Footer />
