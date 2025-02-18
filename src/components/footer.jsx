@@ -2,11 +2,12 @@
 
 
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Footer.css"
 
-const Footer = () => {
+const Footer = ({ isMiddle }) => {
   return (
-    <footer className="footer">
+    <footer id="footer" className={isMiddle ? "footer-middle" : "footer-bottom"}>
       <div className="footer-container">
         <br/><br/>
         <h2> EXTREDE LLC</h2>
@@ -31,27 +32,36 @@ const Footer = () => {
 
             <div className="footer-column">
               <h3>TRADING</h3>
+
+
+              
               <ul>
-                <li>Trading account types</li>
-                <li>Account Deposit</li>
-                <li>Fund Withdrawal</li>
-                <li>Margin & Leverage</li>
-                <li>Overnight Positions</li>
+
+                <li ><Link to="/accounttype" id="link"><i class="fa-solid fa-greater-than"></i> Trading account types</Link></li>
+                  <li><Link to="/funding" id="link"><i class="fa-solid fa-greater-than"></i> Account Deposit</Link></li>
+                
+                 <li><Link to="/withdraw" id="link"><i class="fa-solid fa-greater-than"></i> Withdrawal </Link></li>
+               
+
+
+                  <li><Link to="/margin-and-leverage" id="link"><i class="fa-solid fa-greater-than"></i>  Margin & Leverage</Link></li>
+                 <li><Link to="/over-night" id="link"><i class="fa-solid fa-greater-than"></i>  Overnight Positions</Link></li>
+
               </ul>
             </div>
 
             <div className="footer-column">
               <h3>TOOLS</h3>
               <ul>
-                <li>Economic Calendar</li>
-                <li>Forex Sentiment</li>
-                <li>Live Market News</li>
-                <li>Forex Calculators</li>
-                <li>Holidays Calendar</li>
+                <li><Link to="/Eco-Calender"id="link"><i class="fa-solid fa-greater-than"></i>Economic Calendar</Link></li>
+                <li><a href="/"id="link"><i class="fa-solid fa-greater-than"></i> Forex Sentiment</a></li>                   <li><Link to="/sharecfd"id="link"><i class="fa-solid fa-greater-than"></i> Live Market News</Link></li>
+                <li><a href="/"id="link"><i class="fa-solid fa-greater-than"></i> Forex Calculators</a></li>
+                <li><Link to="/holiday"id="link"><i class="fa-solid fa-greater-than"></i> Holidays Calendar</Link></li>         
+               
               </ul>
             </div>
 
-            <div className="footer-column">
+            {/* <div className="footer-column">
               <h3>IMPORTANT</h3>
               <ul>
                 <li>Fund Protection</li>
@@ -60,7 +70,7 @@ const Footer = () => {
                 <li>Legal Documents</li>
                 <li>Govt.UK License Visit</li>
               </ul>
-            </div>
+            </div> */}
 
             {/* App buttons parallel to the list */}
             <div className="app-buttons">

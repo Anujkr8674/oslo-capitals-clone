@@ -13,7 +13,7 @@
   
   .margin-header {
     position: relative;
-    background-image: url("../image/hourbg.jpg");
+    background-image: url("../image/marginbg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,27 +76,44 @@
   .margin-stopout {
     max-width: 1200px;
     margin: 20px auto;
-    background: #fff;
+    /* background: #fff; */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+
+  #margin-about, #margin-leverage {
+    background-color: #08239c;
+    color: white;
+  }
+
+  #margin-about h2{
+    color: #ddd;
+  }
+
+  #margin-leverage h2 {
+    color: #ddd;
+    text-align: left;
   }
   
-  h2 {
+  /* h2 {
     color: #002147;
     font-size: 24px;
    
     padding-bottom: 5px;
-  }
+  } */
   
-  p {
+  .margin-intro p {
     font-size: 16px;
     line-height: 1.8;
     color: #444;
   }
   
   /* Table Styles */
-  .margin-table {
+  .margin-table, .margin-dynamic-table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
@@ -104,19 +121,19 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .margin-table th,
-  .margin-table td {
+  .margin-table, .margin-dynamic-table th,
+  .margin-table, .margin-dynamic-table td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
   }
   
-  .margin-table th {
+  .margin-table, .margin-dynamic-table th {
   
     font-size: 16px;
   }
   
-  .margin-table tr:nth-child(even) {
+  .margin-table, .margin-dynamic-table tr:nth-child(even) {
     background-color: #f2f2f2;
   }
   
@@ -144,7 +161,7 @@
     .margin-risk,
     .margin-call,
     .margin-stopout,
-    .margin-table {
+    .margin-table, .margin-dynamic-table {
       width: 95%;
       padding: 20px;
     }
@@ -158,9 +175,17 @@
       font-size: 26px;
     }
     
-    .margin-table th, .margin-table td {
+    .margin-table, .margin-dynamic-table th, .margin-table, .margin-dynamic-table td {
       padding: 10px;
       font-size: 14px;
     }
+
+    #dynamic  {
+      display: none;
+    }
   }
+  
+
+
+
   

@@ -1,0 +1,69 @@
+.trade-weak-container{
+    padding: 20px;
+    background-color: #fefefe;
+}
+.trade-content  {
+    display: flex;
+    gap: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    /* background-color: #f0f0f2; */
+}
+
+.trade-text img{
+    height: 100px;
+    width: 100px;
+}
+
+.trade-img img:hover, .trade-text:hover{
+    transform: scale(1.05) translateY(-5px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); 
+    /* transform: scale(1.05); */
+}
+
+.trade-text{
+    background-color: white;
+    /* border-radius: 20px; */
+}
+
+.trade-img{
+    background-color: white;
+    /* border-radius: 20px; */
+}
+
+.trade-img img  {
+    height: 350px;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+    .trade-content  {
+        display: block;
+        gap: 50px;
+    }
+    .trade-img img  {
+        height: 200px;
+        width: 200px;
+    }
+
+    .trade-text{
+        padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 15%;
+    }
+
+    
+    .trade-text p{
+        font-size: 12px;
+    }
+
+    
+    .trade-text h1{
+        font-size: 18px;
+    }
+
+    .trade-weak-container{
+        padding: 20px;
+    }
+
+}

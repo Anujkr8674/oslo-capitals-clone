@@ -27,6 +27,9 @@ import SwapRates from "./pages/SwapRates";
 import OverNight from "./pages/OverNight";
 import TradingHours from "./pages/TradingHours";
 import MarginPage from "./pages/MarginPage";
+import EconomicCalendar from "./pages/EconomicCalendar";
+import Holiday from "./pages/Holiday";
+import TradeWeakLeaderboard from "./pages/TradeWeakLeaderboard ";
 
 
 function App() {
@@ -58,6 +61,10 @@ function App() {
         <Route path="/over-night" element={<OverNight/>}/>
         <Route path="/trading-hours" element={<TradingHours/>}/>
         <Route path="/margin-and-leverage" element={<MarginPage/>}/>
+        <Route path="/Eco-Calender" element={<EconomicCalendar/>}/>
+        <Route path="/holiday" element={<Holiday/>}/>
+        <Route path="/trade-of-the-weak" element={<TradeWeakLeaderboard/>}/>
+
         
         <Route path="/body" element={<Body />} />
       </Routes>

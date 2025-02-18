@@ -90,7 +90,7 @@ const TradingHours = () => {
       <section className="trading-hours-section">
         <h2>Online Trading</h2>
         <p>
-          Also Capitals trading hours are between Sunday 22:05 GMT and Friday 21:50 GMT. When our dealing desk is closed,
+          Also   trading hours are between Sunday 22:05 GMT and Friday 21:50 GMT. When our dealing desk is closed,
           the trading platform does not execute trades and its features are only available for viewing.
         </p>
         <p>
@@ -114,7 +114,7 @@ const TradingHours = () => {
 
             </div>
             <div className="step1text">
-                <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Oslo Capitals account or share your security information.</p>
+                <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an  Extrede   account or share your security information.</p>
             </div>
         </div>
       </section>
@@ -127,8 +127,8 @@ const TradingHours = () => {
 
             </div>
             <div className="step1text">
-                {/* <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Oslo Capitals account or share your security information.</p> */}
-                <p>Only conduct financial activities within the Oslo Capitals Personal Area and avoid transferring funds to unknown accounts.</p>
+                {/* <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an  Extrede   account or share your security information.</p> */}
+                <p>Only conduct financial activities within the  Extrede   Personal Area and avoid transferring funds to unknown accounts.</p>
             </div>
         </div>
     </div>

@@ -1,0 +1,65 @@
+.Holiday-container{
+    font-family: 'Arial', sans-serif;
+}
+
+.holiday-header {
+    position: relative;
+    background-image: url("../image/holibg.png");
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 400px;
+    width: -webkit-fill-available;
+}
+
+
+
+.holiday-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+  .holiday-header h1  {
+   
+    /* color: black; */
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+    font-size: 50px;
+    padding-left: 10%;
+  }
+
+  .holiday-text {
+    height: auto;
+  }
+
+  .holiday-text p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .holiday-text p{
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+}

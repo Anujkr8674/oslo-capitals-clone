@@ -417,7 +417,7 @@ const Spreads = () => {
     
     <h1  className="h1">Regulations
     </h1 >
-    <p>If you’ve been wondering, ‘is Oslo Capitals legit?’, you can rest assured that we are a licensed broker, regulated by leading international governing bodies globally.</p>
+    <p>If you’ve been wondering, ‘is Extrede   legit?’, you can rest assured that we are a licensed broker, regulated by leading international governing bodies globally.</p>
     <br/>
     <h1  className="h1">Account security</h1>
     <p>Prevent unauthorized access to your secure trading accounts by choosing a security option – either phone or email – during your registration process.</p>
@@ -431,7 +431,7 @@ const Spreads = () => {
         <div className="spreads-info">
           <h2>What is a Spread in Forex?</h2>
           <h2>What does Spread mean?</h2>
-          <p>Trade with Oslo Capitals on ultra-competitive spreads</p>
+          <p>Trade with Extrede   on ultra-competitive spreads</p>
         </div>
         <div className="spreads-information">
             <p>Forex is the most traded market in the world offering numerous trading opportunities. One of the ways you pay for these opportunities is through the broker spreads, or the difference between the ask and bid prices of a tradable instrument. When the spread is tight, your trading cost reduces.</p>
@@ -545,7 +545,7 @@ const Spreads = () => {
                 <p>It is important for forex traders to be familiar with forex spreads, since they represent the primary cost of trading. It is an important parametre to consider when you choose a broker.</p>
             </div>
             <div className="spreadsdiv2">
-                <p>If you choose to open and trade with an Oslo Capitals RAW ECN account, you will find some of the lowest spreads in the market. Our liquidity is sourced from some of the largest and best liquidity providers. This gives us the ability to offer you the tightest spreads, starting as low as 0.0 pips during the most liquid times, something that was previously the domain of hedge funds only. You can always check our trading conditions by opening a demo account.</p>
+                <p>If you choose to open and trade with an Extrede   RAW ECN account, you will find some of the lowest spreads in the market. Our liquidity is sourced from some of the largest and best liquidity providers. This gives us the ability to offer you the tightest spreads, starting as low as 0.0 pips during the most liquid times, something that was previously the domain of hedge funds only. You can always check our trading conditions by opening a demo account.</p>
             </div>
          </div>
 
@@ -577,7 +577,7 @@ const Spreads = () => {
           <div className="text-content1">
 
             <h2 id="low">Industry Leading Low Forex Spreads</h2>
-            <p>Oslo Capitals provides variable spreads for fast trade execution, with low probability of requotes. Our feed comes from leading international financial institutions for deep liquidity, along with real-time price quotes for different tradable instruments. This allows us to offer forex spreads as low as 0.0 pips on RAW ECN accounts and 1.0 pips on Standard STP accounts.</p>
+            <p>Extrede   provides variable spreads for fast trade execution, with low probability of requotes. Our feed comes from leading international financial institutions for deep liquidity, along with real-time price quotes for different tradable instruments. This allows us to offer forex spreads as low as 0.0 pips on RAW ECN accounts and 1.0 pips on Standard STP accounts.</p>
             
             </div>
           

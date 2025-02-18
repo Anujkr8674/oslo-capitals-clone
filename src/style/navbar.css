@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     background: #f8f9fa;
+    margin-left: 55px;
   }
   
   .top-nav ul {
@@ -123,9 +124,9 @@ body {
       right: 0;
     }
 
-    /* .top-nav    {
-        display: none;
-    } */
+    .top-nav    {
+        margin-left: 2px;
+    }
 
     .top-nav ul {
         display: none;

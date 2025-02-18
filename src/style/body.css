@@ -967,8 +967,16 @@
     }
 
     .top-nav li{
+        /* margin-top: 30px;
+        margin-left: 20px; */
+
+
         margin-top: 30px;
         margin-left: 20px;
+        font-size: 11px;
+        align-items: center;
+        text-align: center;
+        padding-left: 48px;
     }
 
     .div2   {

@@ -6,7 +6,7 @@ const IndicesTrading = () => {
     <div className="indices-container">
       {/* Hero Section */}
       <section className="indices-hero">
-        <h1>Indices Trading</h1>
+        <h1 >Indices Trading</h1>
         <p><b>Extrede   offers traders the most popular indices on its powerful<br/><br/> trading platforms.</b></p>
       </section>
 

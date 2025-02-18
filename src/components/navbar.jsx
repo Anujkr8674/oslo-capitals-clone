@@ -174,12 +174,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div className="tools">
         <h3 className="head"><b> TRADING TOOLS</b></h3>
-        <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Economic Calendar</a></li>
+        <li><Link to="/Eco-Calender"><i class="fa-solid fa-arrow-trend-up"></i> Economic Calendar</Link></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Sentiment</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Live Market News</a></li>
+          <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Live Market News</Link></li>
           <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Calculators</a></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Holidays Calendar</a></li>
-          <li><a href="/e"><i class="fa-solid fa-arrow-trend-up"></i> Traders of The Week</a></li>
+          <li><Link to="/holiday"><i class="fa-solid fa-arrow-trend-up"></i> Holidays Calendar</Link></li>
+          <li><a href="/trade-of-the-weak"><i class="fa-solid fa-arrow-trend-up"></i> Traders of The Week</a></li>
          
         </div>
 

@@ -1,4 +1,4 @@
-.footer {
+#footer {
     background-color: #001c8c;
     color: white;
     text-align: center;
@@ -157,4 +157,17 @@
   #insurance1 p{
     color: black;
   }
+
+
+  #link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #link i {
+    margin-right: 10px;
+  }
+
+
+  
   

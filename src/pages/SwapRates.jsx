@@ -99,7 +99,7 @@ const SwapRates = () => {
       {/* Header Section */}
       <header className="swap-header">
         <h1>Swap Rates</h1>
-        <p>Oslo Capitals understands that competitive swap rates are important to any trader.</p>
+        <p>Extrede   understands that competitive swap rates are important to any trader.</p>
       </header>
 
 
@@ -136,7 +136,7 @@ const SwapRates = () => {
     
     <h1  className="h1">Regulations
     </h1 >
-    <p>If you’ve been wondering, ‘is Oslo Capitals legit?’, you can rest assured that we are a licensed broker, regulated by leading international governing bodies globally.</p>
+    <p>If you’ve been wondering, ‘is Extrede   legit?’, you can rest assured that we are a licensed broker, regulated by leading international governing bodies globally.</p>
     <br/>
     <h1  className="h1">Account security</h1>
     <p>Prevent unauthorized access to your secure trading accounts by choosing a security option – either phone or email – during your registration process.</p>
@@ -152,11 +152,11 @@ const SwapRates = () => {
             <h1>Get Competitive Forex Swap Rates</h1>
             <div id="understanding1" className="understanding1">
                 <div  id="swapunder" className="understandingtext1">
-                    <p>At Oslo Capitals, we offer among the most competitive swap rates in the industry. What this means is that when you keep positions open overnight, you don’t need to worry about the overnight/rollover fee eating into your earnings.</p>
+                    <p>At Extrede  , we offer among the most competitive swap rates in the industry. What this means is that when you keep positions open overnight, you don’t need to worry about the overnight/rollover fee eating into your earnings.</p>
                     <p>To find out the rollover fee, just use the handy forex swap rates calculator, on MetaTrader 5. Simply choose the financial instrument which you intend to hold an overnight position, fill in the currency and trade size details, and click on “Calculate.”</p>
                 </div>
                 <div className="understandingtext2">
-                    <p>Oslo Capitals all-in-one FX calculator allows you to calculate all the important parametres of your trade including:</p>
+                    <p>Extrede   all-in-one FX calculator allows you to calculate all the important parametres of your trade including:</p>
                     <ul>
                         <li>Pip value</li>
                         <li>Contract size</li>
@@ -303,7 +303,7 @@ const SwapRates = () => {
 
 
       <section id="swapplate" className="forex-best-platform">
-      <h2>How to Find Oslo Capitals’<br/>
+      <h2>How to Find Extrede  ’<br/>
       Swap Rates in MT5?</h2>
       <p id="swappara">To check the latest rates on MT5 accounts:</p><br/>
         <div className="content">
@@ -369,7 +369,7 @@ const SwapRates = () => {
 
       </div>
       <div className="step1text">
-          <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Oslo Capitals account or share your security information.</p>
+          <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Extrede   account or share your security information.</p>
       </div>
   </div>
 </section>
@@ -382,8 +382,8 @@ const SwapRates = () => {
 
       </div>
       <div className="step1text">
-          {/* <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Oslo Capitals account or share your security information.</p> */}
-          <p>Only conduct financial activities within the Oslo Capitals Personal Area and avoid transferring funds to unknown accounts.</p>
+          {/* <p>Keep your Personal Area private, never share access and personal documents. Don't let anyone use your name to create an Extrede   account or share your security information.</p> */}
+          <p>Only conduct financial activities within the Extrede   Personal Area and avoid transferring funds to unknown accounts.</p>
       </div>
   </div>
     </div>
