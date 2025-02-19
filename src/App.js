@@ -30,6 +30,14 @@ import MarginPage from "./pages/MarginPage";
 import EconomicCalendar from "./pages/EconomicCalendar";
 import Holiday from "./pages/Holiday";
 import TradeWeakLeaderboard from "./pages/TradeWeakLeaderboard ";
+import IntroductionBroker from "./pages/IntroductionBroker";
+import MultiProgram from "./pages/MultiProgram";
+import AffiliateProgramme from "./pages/AffiliateProgramme";
+import WhiteLabelPage from "./pages/WhiteLabelPage";
+import ForexTradingPage from "./pages/ForexTradingPage";
+import BasicForexPage from "./pages/BasicForexPage";
+import Tradingprinciples from "./pages/TradingPrinciples";
+import BestTrading from "./pages/BestTrading";
 
 
 function App() {
@@ -64,6 +72,15 @@ function App() {
         <Route path="/Eco-Calender" element={<EconomicCalendar/>}/>
         <Route path="/holiday" element={<Holiday/>}/>
         <Route path="/trade-of-the-weak" element={<TradeWeakLeaderboard/>}/>
+        <Route path="/introduction-broker" element={<IntroductionBroker/>}/>
+        <Route path="/multi-level-program" element={<MultiProgram/>}/>
+        <Route path="/affiliate-programme" element={<AffiliateProgramme/>}/>
+        <Route path="/white-label" element={<WhiteLabelPage/>}/>
+        <Route path="/beg-forex" element={<ForexTradingPage/>}/>
+        <Route path="/basic-forex" element={<BasicForexPage/>}/>
+        <Route path="/tranding-principle" element={<Tradingprinciples/>}/>
+        <Route path="/best-tradeing" element={<BestTrading/>}/>
+
 
         
         <Route path="/body" element={<Body />} />

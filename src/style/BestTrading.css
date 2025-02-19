@@ -1,0 +1,13 @@
+#best1 img{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    #best1 img{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    }
+}

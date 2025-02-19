@@ -1,0 +1,45 @@
+
+.beg-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .beg-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .beg-hero, .beg-video, .beg-world-map, .beg-currency-trading, .beg-leverage-pip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .beg-image-placeholder, .beg-video-placeholder {
+    width: 90%;
+    height: 90%;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .beg-intro, .beg-why, .beg-why-trade, .beg-strategy, .beg-knowledgeable, .beg-prediction {
+    margin-bottom: 20px;
+  }
+  
+  .beg-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+  }
+  

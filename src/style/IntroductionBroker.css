@@ -1,0 +1,399 @@
+/* General Styling */
+.introduction-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  .introduction-header {
+    background-image: url("../image/introbg.png");
+    position: relative;
+    padding-left: 11%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 350px;
+    width: -webkit-fill-available;
+  }
+
+
+  .introtextcover{
+    background-image: url("../image/introbg1.png");
+    position: relative;
+    padding-left: 11%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 350px;
+    width: -webkit-fill-available;
+
+  }
+
+  .introtextcover::before{  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+
+  }
+
+  .introtextcover *{
+    position: relative;
+    z-index: 2;
+  }
+
+  .introtextcover h3{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 8%;
+    text-align: center;
+  }
+
+
+  .introduction-header::before{  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+
+  }
+
+  .introduction-header *{
+    position: relative;
+    z-index: 2;
+  }
+
+  .introduction-header-content{
+    padding-left: 11%;
+  }
+  
+  .introduction-header-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .introduction-header-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    /* margin: 10px auto; */
+  }
+  
+  .introduction-button {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  .introduction-button:hover {
+    background: #0056b3;
+  }
+
+
+  #intro{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #introh {
+    color: black;
+  }
+
+  #leftintro  h3 {
+    color: #ddd;
+    font-size: 20px;
+  }
+
+  #leftintro  p {
+    color: #ddd;
+  }
+
+
+
+
+
+  
+
+
+  
+  /* Commission Section */
+  .introduction-commission {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+  }
+  
+  .introduction-commission h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .introduction-commission-percent {
+    font-size: 3rem;
+    color: #28a745;
+  }
+  
+  /* Features Section */
+  .introduction-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background: #fff;
+  }
+  
+  .introduction-feature {
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Steps Section */
+  .introduction-steps {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e9ecef;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #intropara{
+    /* background: #007bff; */
+    background: blue;
+    color: white;
+    /* width: fit-content; */
+    text-align: center;
+    /* width: -webkit-fill-available; */
+    display: inline-block; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+  }
+  
+  .introduction-step {
+    margin-top: 20px;
+  }
+  
+  /* FAQ Section */
+  .introduction-faq {
+    padding: 50px 20px;
+    background: #fff;
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .introduction-faq h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .introduction-faq details {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .introduction-faq summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+  .intoduction1{
+    display: flex;
+    gap: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+
+    
+  }
+
+
+  .introduction-step-head{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+
+  .textimg11  {
+    display: flex;
+  }
+  .introimg img{
+    mix-blend-mode: multiply;
+    height: 120px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .introduction-header-content h1 {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+
+
+    .intro-features {
+      display: grid;
+      /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intoduction1{
+      display: block;
+    }
+  
+    .introduction-header-content p {
+      font-size: 1rem;
+    }
+  
+    .introduction-button {
+      font-size: 0.9rem;
+    }
+  
+    .introduction-commission h2 {
+      font-size: 1.5rem;
+    }
+  
+    .introduction-commission-percent {
+      font-size: 2.5rem;
+    }
+
+    .introduction-step-head {
+      display: block;
+    }
+
+    .introduction-faq{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+
+    .introtextcover h3{
+      padding-left: 35px;
+      padding-right: 35px;
+      text-align: left;
+    }
+  }
+  
+
+
+
+  .intro-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .intro-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .intro-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .intro-button {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .intro-features {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .intro-feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .intro-icon {
+    font-size: 24px;
+  }
+  
+  .intro-feature-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .intro-feature-text {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .intro-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  .intro-badge {
+    background: linear-gradient(to right, #1c96a0, #4caf50);
+
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+  .icontext {
+    display: block;
+  }
+
+ 
+
+  

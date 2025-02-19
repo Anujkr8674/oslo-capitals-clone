@@ -175,11 +175,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div className="tools">
         <h3 className="head"><b> TRADING TOOLS</b></h3>
         <li><Link to="/Eco-Calender"><i class="fa-solid fa-arrow-trend-up"></i> Economic Calendar</Link></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Sentiment</a></li>
+          <li><Link to="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Sentiment</Link></li>
           <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Live Market News</Link></li>
-          <li><a href="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Calculators</a></li>
+          <li><Link to="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Calculators</Link></li>
           <li><Link to="/holiday"><i class="fa-solid fa-arrow-trend-up"></i> Holidays Calendar</Link></li>
-          <li><a href="/trade-of-the-weak"><i class="fa-solid fa-arrow-trend-up"></i> Traders of The Week</a></li>
+          <li><Link to="/trade-of-the-weak"><i class="fa-solid fa-arrow-trend-up"></i> Traders of The Week</Link></li>
          
         </div>
 
@@ -255,10 +255,13 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
 
         <div className="info">
-           <p>  Introducing Broker Partner Programs
-          Multi-Level Program
-          Affiliate Programme 
-          White Label</p>
+
+
+        <li><Link to="/introduction-broker"> Introducing Broker </Link></li>
+        <li><Link to="/multi-level-program">Multi-Level Program</Link></li>
+        <li><Link to="/affiliate-programme">   Affiliate Programme  </Link></li>
+        <li><Link to="/white-label"> White Label</Link></li>
+         
         </div>
 
         <div className="docimg">
@@ -288,12 +291,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <div className="top">
               <h3>TOP GUIDES</h3>
-              <li><a href="/">New to Forex?</a></li>
-                 <li><a href="/"> Forex Basics</a></li>
-                 <li><a href="/">Successful Traders Guide</a></li>
-                 <li><a href="/">Trading Principles</a></li>
-                 <li><a href="/">Top Trading Strategies</a></li>
-                 <li><a href="/">How to Make Money in Forex?</a></li>
+             
+
+
+              {/* <li><Link to="/beg-forex"> New to Forex?</Link></li> */}
+              <li><Link to="/basic-forex"> Forex Basics</Link></li>
+              {/* <li><Link to="/introduction-broker"> Successful Traders Guide</Link></li> */}
+              <li><Link to="/tranding-principle"> Trading Principles</Link></li>
+              <li><Link to="/best-tradeing"> Top Trading Strategies</Link></li>
+              {/* <li><Link to="/introduction-broker"> How to Make Money in Forex?</Link></li> */}
+
+       
+                 
             </div>
 
             <div className="man">

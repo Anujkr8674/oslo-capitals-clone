@@ -85,6 +85,10 @@ const EconomicCalendar = () => {
         
       </section>
 
+      <div className="texteco">
+        <p>An important tool for short and long-term traders, and investors alike, the Oslo Capitals economic calendar can help you decide whether to stay on the sidelines or whether to load up and take a position, capitalising on news-driven volatility.</p>
+      </div>
+
 
 
 
