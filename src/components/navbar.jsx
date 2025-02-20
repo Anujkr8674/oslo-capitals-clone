@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
           <ul>
-          <li><a href="/" onClick={closeMenu}> Home</a></li>
+          <li><Link to="/" onClick={closeMenu}> Home</Link></li>
       <li className="custom-dropdown">
       {/* <a href="#"> Trading</a> */}
       {/* <li id="custom-dropdown-menu" className="custom-dropdown-menu"> */}
