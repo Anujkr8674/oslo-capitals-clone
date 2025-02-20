@@ -38,6 +38,14 @@ import ForexTradingPage from "./pages/ForexTradingPage";
 import BasicForexPage from "./pages/BasicForexPage";
 import Tradingprinciples from "./pages/TradingPrinciples";
 import BestTrading from "./pages/BestTrading";
+import Regulation from "./pages/Regulation";
+import AboutMilestones from "./pages/AboutMilestones";
+import TradingServers from "./pages/TradingServers";
+
+import OfficeLocations from "./pages/OfficeLocation";
+import PartnerTrade from "./pages/PartnerTrade";
+import Awards from "./pages/Awards";
+import FAQ from "./pages/FAQ";
 
 
 function App() {
@@ -80,6 +88,15 @@ function App() {
         <Route path="/basic-forex" element={<BasicForexPage/>}/>
         <Route path="/tranding-principle" element={<Tradingprinciples/>}/>
         <Route path="/best-tradeing" element={<BestTrading/>}/>
+        <Route path="/regulation" element={<Regulation/>}/>
+        <Route path="/about" element={<AboutMilestones/>}/>
+        <Route path="/trading-server" element={<TradingServers/>}/>
+        {/* <Route path="/office-location" element={<Office/>}/> */}
+        {/* <Route path="/office-location" element={<Office/>}/> */}
+        <Route path="/office-location" element={<OfficeLocations/>}/>
+        <Route path="/Partner-trade" element={<PartnerTrade/>}/>
+        <Route path="/awards" element={<Awards/>}/>
+        <Route path="/contactus" element={<FAQ/>}/>
 
 
         

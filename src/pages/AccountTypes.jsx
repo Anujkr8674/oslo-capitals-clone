@@ -11,7 +11,7 @@ const AccountTypes = () => {
         {/* <button>Open an Acc</button> */}
         <p>We offers a wide range of account types,so you can open a trading<br/>
         account that suits your investment needs.</p>
-        <button>Check Account Type</button>
+        {/* <button>Check Account Type</button> */}
       </header>
 
 

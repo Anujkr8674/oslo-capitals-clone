@@ -1,0 +1,210 @@
+
+.logo-partner{
+    /* background-color: azure; */
+    padding: 20px;
+}
+
+
+
+.logo-head {
+  
+
+    position: relative;
+    background-image: url("../image/partnerbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: left;
+    padding: 40px 20px;
+    height: 400px;
+    width: -webkit-fill-available;
+    max-height: 800px;
+  }
+
+
+
+.logo-head::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;
+  }
+
+
+ .logo-head * {
+    position: relative;
+    z-index: 2;
+    padding-left: 15%;
+   
+}
+
+.logo-head h1{
+    /* text-align: center; */
+    /* padding-left: 30%; */
+    padding-top: 150px;
+    font-weight: 600;
+}
+
+.logo-head p{
+    font-weight: 600;
+}
+
+
+
+
+.partner-trade-container {
+    background-color: #1e40af;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .partner-trade-tag {
+    background: linear-gradient(to right, #d8a7ff, #ffb6c1);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .partner-trade-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .partner-trade-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  
+  .partner-trade-logo {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .partner-trade-logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .partner-trade-container {
+      padding: 1.5rem;
+      max-width: 90%;
+    }
+  
+    .partner-trade-title {
+      font-size: 1.8rem;
+    }
+  
+    .partner-trade-description {
+      font-size: 0.9rem;
+    }
+  
+    .partner-trade-logo img {
+      max-width: 120px;
+    }
+
+    .logo-head * {
+        padding-left: 5px;
+    }
+
+    .logo-head h1 {
+        padding-top: 10px;
+    }
+    .logo-head{
+        height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .partner-trade-container {
+      padding: 1rem;
+    }
+  
+    .partner-trade-title {
+      font-size: 1.5rem;
+    }
+  
+    .partner-trade-description {
+      font-size: 0.85rem;
+    }
+  
+    .partner-trade-logo img {
+      max-width: 100px;
+    }
+  }
+#logo1{
+    background-color: aliceblue;
+}  
+
+
+
+
+
+
+.design-slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .design-slider {
+    display: flex;
+    gap: 60px;
+  }
+  
+  #design-main-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #design-top-slider {
+    animation: design-slideRight 10s linear infinite;
+  }
+  
+  #design-bottom-slider {
+    animation: design-slideLeft 10s linear infinite;
+  }
+  
+  .design-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  @keyframes design-slideRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes design-slideLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

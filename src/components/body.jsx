@@ -134,12 +134,17 @@ const Body = () => {
 
 
   return (
-    <div>
-      {/* Hero Section */}
+    <div id="hero11">
+     
+
+
       <div className="hero">
-        <h1>Trade Proudly with Over 1 Million Traders Worldwide</h1>
-        <p>From secure payments to negative balance protection, you are covered.</p>
+        <div className="hero-content">
+          <h1>Trade Proudly with Over 1 Million Traders Worldwide</h1>
+          <p>From secure payments to negative balance protection, you are covered.</p>
+        </div>
       </div>
+
 
       {/* Top Navigation List */}
       <ul className="top-nav" id="ul">
@@ -426,6 +431,7 @@ const Body = () => {
         </div>
     </div>
 
+            <br/><br/><br/>
     
     <div className="imgtext">
         

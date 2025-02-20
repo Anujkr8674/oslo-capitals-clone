@@ -65,10 +65,10 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       <nav className="top-nav">
         <ul>
-          <li><a href="#">Trader of The Week</a></li>
-          <li><a href="#">Regulation</a></li>
-          <li><a href="#">Client Protection</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/trade-of-the-weak">Trader of The Week</Link></li>
+          <li><Link to="/regulation">Regulation</Link></li>
+          {/* <li><a href="#">Client Protection</a></li> */}
+          <li><Link to ="/contactus">Contact</Link></li>
           <li>
             <br/>
             <select>
@@ -121,10 +121,11 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>
           <li><a href="/" onClick={closeMenu}> Home</a></li>
       <li className="custom-dropdown">
-      {/* <a href="#"><i class="fa-solid fa-caret-down"></i>Trading</a> */}
+      {/* <a href="#"> Trading</a> */}
       {/* <li id="custom-dropdown-menu" className="custom-dropdown-menu"> */}
 
-      <a href="#" onClick={() => toggleDropdown("trading")}><i class="fa-solid fa-caret-down"></i>Trading</a>
+      {/* <a href="#" onClick={() => toggleDropdown("trading")}> Trading</a> */}
+      <a href="#" onClick={() => toggleDropdown("trading")}> Trading</a>
       {openDropdown === "trading" && (
 
 <li id="custom-dropdown-menu" className="custom-dropdown-menu">
@@ -136,24 +137,25 @@ document.addEventListener("DOMContentLoaded", function () {
           <h3 className="head"><b>ACCOUNTS</b></h3>
           
           
-          <li><Link to="/accounttype"><i class="fa-solid fa-arrow-trend-up"></i> Trading Accounts</Link></li>
-          <li><Link to="/vipaccount"><i class="fa-solid fa-arrow-trend-up"></i> VIP Accounts</Link></li>
-          <li><Link to="/robotrading"><i class="fa-solid fa-arrow-trend-up"></i> Robo Accounts</Link></li>
-          <li><Link to="/copytrading"><i class="fa-solid fa-arrow-trend-up"></i> Copy Trading</Link></li>
-          <li><Link to="/funding"><i class="fa-solid fa-arrow-trend-up"></i> Deposits Fund</Link></li>
-          <li><Link to="/withdraw"><i class="fa-solid fa-arrow-trend-up"></i> Withdrawal Fund</Link></li>
-          <li><Link to="/vipaccountwithdraw"><i class="fa-solid fa-arrow-trend-up"></i> (VIP) Withdrawal Request</Link></li>
+          {/* <li><Link to="/accounttype">  Trading Accounts</Link></li> */}
+          <li><Link to="/accounttype">  Trading Accounts</Link></li>
+          <li><Link to="/vipaccount">  VIP Accounts</Link></li>
+          <li><Link to="/robotrading">  Robo Accounts</Link></li>
+          <li><Link to="/copytrading">  Copy Trading</Link></li>
+          <li><Link to="/funding">  Deposits Fund</Link></li>
+          <li><Link to="/withdraw">  Withdrawal Fund</Link></li>
+          <li><Link to="/vipaccountwithdraw">  (VIP) Withdrawal Request</Link></li>
         </div>
 
         
         <div className="insturments">
         <h3 className="head"><b>INSTURMENTS</b></h3>
-        <li><Link to="/forex"><i class="fa-solid fa-arrow-trend-up"></i> Forex</Link></li>
-          <li><Link to="/commodities"><i class="fa-solid fa-arrow-trend-up"></i> Commodities</Link></li>
-          <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Share CFDs</Link></li>
-          <li><Link to ="/bondcfd"><i class="fa-solid fa-arrow-trend-up"></i> Bonds CFDs</Link></li>
-          <li><Link to="/metals"><i class="fa-solid fa-arrow-trend-up"></i> Metal</Link></li>
-          <li><Link to="/indices"><i class="fa-solid fa-arrow-trend-up"></i> Indices</Link></li>
+        <li><Link to="/forex">  Forex</Link></li>
+          <li><Link to="/commodities">  Commodities</Link></li>
+          <li><Link to="/sharecfd">  Share CFDs</Link></li>
+          <li><Link to ="/bondcfd">  Bonds CFDs</Link></li>
+          <li><Link to="/metals">  Metal</Link></li>
+          <li><Link to="/indices">  Indices</Link></li>
          
         </div>
 
@@ -161,12 +163,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div className="conditions">
         <h3 className="head"><b> CONDITIONS</b></h3>
-        <li><Link to="/execution"><i class="fa-solid fa-arrow-trend-up"></i> Execution Policy</Link></li>
-          <li><Link to="/spreads"><i class="fa-solid fa-arrow-trend-up"></i> Spreads</Link></li>
-          <li><Link to="/swap"><i class="fa-solid fa-arrow-trend-up"></i> Swaps</Link></li>
-          <li><Link to="/margin-and-leverage"><i class="fa-solid fa-arrow-trend-up"></i> Margin and Leverage</Link></li>
-          <li><Link to="/over-night"><i class="fa-solid fa-arrow-trend-up"></i> Overnight Positions</Link></li>
-          <li><Link to="/trading-hours"><i class="fa-solid fa-arrow-trend-up"></i> Trading Hours</Link></li>
+        <li><Link to="/execution">  Execution Policy</Link></li>
+          <li><Link to="/spreads">  Spreads</Link></li>
+          <li><Link to="/swap">  Swaps</Link></li>
+          <li><Link to="/margin-and-leverage">  Margin and Leverage</Link></li>
+          <li><Link to="/over-night">  Overnight Positions</Link></li>
+          <li><Link to="/trading-hours">  Trading Hours</Link></li>
          
         </div>
 
@@ -174,12 +176,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div className="tools">
         <h3 className="head"><b> TRADING TOOLS</b></h3>
-        <li><Link to="/Eco-Calender"><i class="fa-solid fa-arrow-trend-up"></i> Economic Calendar</Link></li>
-          <li><Link to="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Sentiment</Link></li>
-          <li><Link to="/sharecfd"><i class="fa-solid fa-arrow-trend-up"></i> Live Market News</Link></li>
-          <li><Link to="/"><i class="fa-solid fa-arrow-trend-up"></i> Forex Calculators</Link></li>
-          <li><Link to="/holiday"><i class="fa-solid fa-arrow-trend-up"></i> Holidays Calendar</Link></li>
-          <li><Link to="/trade-of-the-weak"><i class="fa-solid fa-arrow-trend-up"></i> Traders of The Week</Link></li>
+        <li><Link to="/Eco-Calender">  Economic Calendar</Link></li>
+          {/* <li><Link to="/">  Forex Sentiment</Link></li> */}
+          <li><Link to="/sharecfd">  Live Market News</Link></li>
+          {/* <li><Link to="/">  Forex Calculators</Link></li> */}
+          <li><Link to="/holiday">  Holidays Calendar</Link></li>
+          <li><Link to="/trade-of-the-weak">  Traders of The Week</Link></li>
          
         </div>
 
@@ -197,9 +199,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <li className="custom-dropdown">
-  {/* <a href="#"><i class="fa-solid fa-caret-down"></i> Platform </a> */}
+  {/* <a href="#">  Platform </a> */}
 
-  <a href="#" onClick={() => toggleDropdown("plateform")}><i class="fa-solid fa-caret-down"></i> Plateform</a>
+  <a href="#" onClick={() => toggleDropdown("plateform")}>  Plateform</a>
   {openDropdown === "plateform" && (
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
@@ -234,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <li className="custom-dropdown">
 
-  <a href="#" onClick={() => toggleDropdown("partners")}><i class="fa-solid fa-caret-down"></i>Partners</a>
+  <a href="#" onClick={() => toggleDropdown("partners")}> Partners</a>
   {openDropdown === "partners" && (
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
@@ -277,8 +279,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
             <li className="custom-dropdown">
-  {/* <a href="#"><i class="fa-solid fa-caret-down"></i> Oslo Academy </a> */}
-  <a href="#" onClick={() => toggleDropdown("oslo")}><i class="fa-solid fa-caret-down"></i> Extrede Academy</a>
+  {/* <a href="#">  Oslo Academy </a> */}
+  <a href="#" onClick={() => toggleDropdown("oslo")}>  Extrede Academy</a>
   {openDropdown === "oslo" && (
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
@@ -286,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div className="oslopara">
               <p>Learn all about trading with<br/> Extrede Academy and get the<br/> latest financial news plus in-<br/>depth market analysis.</p>
               <br/>
-              <button id="vist">Vist extrede Academy </button>
+              {/* <button id="vist">Vist extrede Academy </button> */}
             </div>
 
             <div className="top">
@@ -373,7 +375,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     <li className="custom-dropdown">
-  <a href="accounttype"><i class="fa-solid fa-caret-down"></i> Company </a>
+  <a href="accounttype">  Company </a>
   <li id="custom-dropdown-menu" className="custom-dropdown-menu">
 
             <div className="company">
@@ -389,25 +391,27 @@ document.addEventListener("DOMContentLoaded", function () {
               </div>
 
               <div className="aboutus">
+              {/* about */}
                 <h4>About us</h4>
-                <li><a href="/">Regulation</a></li>
-                <li><a href="/">Our Awards</a></li>
-                <li><a href="/">Our Worldwide Office</a></li>
-                <li><a href="/"> Executive Committee</a></li>
-                <li><a href="/">Our Trading Partner</a></li>
-                <li><a href="/">Our Trading Servers</a></li>
-                <li><a href="/">Govt.UK License Visit</a></li>
+                <li><Link to="/about">About Extrede</Link> </li>
+                <li><Link to="/regulation">Regulation</Link></li>
+                <li><Link to ="/awards">Our Awards</Link></li>
+                <li><Link to="/office-location">Our Worldwide Office</Link></li>
+                {/* <li><a href="/"> Executive Committee</a></li> */}
+                <li><Link to="/Partner-trade">Our Trading Partner</Link></li>
+                <li><Link to="/trading-server">Our Trading Servers</Link></li>
+                {/* <li><a href="/">Govt.UK License Visit</a></li> */}
                 
               </div>
 
-              <div className="trade">
+              {/* <div className="trade">
                 <h4>Why Trade With Us</h4>
                 <li><a href="/">Client Fund Protection</a></li>
                 <li><a href="/">Our Insurance Program</a></li>
                 <li><a href="/">Invest Responsibly</a></li>
                 <li><a href="/">Legal Documents</a></li>
            
-              </div>
+              </div> */}
 
               <div className="man1">
                 <img src="/images/girl.jpeg" alt="girl"/>
@@ -417,7 +421,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </li>
             {/* <li><a href="#" onClick={closeMenu}>Company</a></li> */}
             {/* <li><a href="/" onClick={closeMenu}>Promotions</a></li> */}
-            <li><a href="/" onClick={closeMenu}>Help Center</a></li>
+            <li><Link to="/contactus" onClick={closeMenu}>Help Center</Link></li>
           </ul>
           
         </nav>

@@ -22,11 +22,12 @@ const Footer = ({ isMiddle }) => {
             <div className="footer-column">
               <h3>ABOUT US</h3>
               <ul>
-                <li>Company</li>
-                <li>Regulation</li>
-                <li>Our Worldwide Office</li>
-                <li>Our Trading Partner</li>
-                <li>Our Trading Servers</li>
+              <li ><Link to="/about" id="link"><i class="fa-solid fa-greater-than"></i> Company</Link></li>
+              <li ><Link to="/regulation" id="link"><i class="fa-solid fa-greater-than"></i> Regulation</Link></li>
+              <li ><Link to="/office-location" id="link"><i class="fa-solid fa-greater-than"></i> Our Worldwide Office</Link></li>
+              <li ><Link to="/Partner-trade" id="link"><i class="fa-solid fa-greater-than"></i> Our Trading Partner</Link></li>
+              <li ><Link to="/trading-server" id="link"><i class="fa-solid fa-greater-than"></i> Our Trading Servers</Link></li>
+                
               </ul>
             </div>
 
@@ -54,10 +55,11 @@ const Footer = ({ isMiddle }) => {
               <h3>TOOLS</h3>
               <ul>
                 <li><Link to="/Eco-Calender"id="link"><i class="fa-solid fa-greater-than"></i>Economic Calendar</Link></li>
-                <li><a href="/"id="link"><i class="fa-solid fa-greater-than"></i> Forex Sentiment</a></li>                   <li><Link to="/sharecfd"id="link"><i class="fa-solid fa-greater-than"></i> Live Market News</Link></li>
-                <li><a href="/"id="link"><i class="fa-solid fa-greater-than"></i> Forex Calculators</a></li>
+                {/* <li><a href="/"id="link"><i class="fa-solid fa-greater-than"></i> Forex Sentiment</a></li>      */}
+                <li><Link to="/sharecfd"id="link"><i class="fa-solid fa-greater-than"></i> Live Market News</Link></li>
+                <li><Link to="/trade-of-the-weak"id="link"><i class="fa-solid fa-greater-than"></i> Trade of the weak</Link></li>
                 <li><Link to="/holiday"id="link"><i class="fa-solid fa-greater-than"></i> Holidays Calendar</Link></li>         
-               
+               <li><Link to="/trading-hours"id="link"><i class="fa-solid fa-greater-than"></i>  Trading Hours</Link></li>
               </ul>
             </div>
 
